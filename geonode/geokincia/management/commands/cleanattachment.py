@@ -28765,3 +28765,13633 @@ FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/wo
 FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
 
 2024-05-16 08:25:00,205 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 08:30:57,502 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 08:30:58,029 WARNING fail to pull uploaded dataset
+2024-05-16 08:31:00,472 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 08:31:00,612 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 08:35:00,099 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 08:35:00,106 WARNING fail to pull uploaded dataset
+2024-05-16 08:35:00,164 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 08:35:00,166 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 08:40:00,211 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 08:40:00,215 WARNING fail to pull uploaded dataset
+2024-05-16 08:40:00,513 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 08:40:00,515 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 08:45:00,170 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 08:45:00,175 WARNING fail to pull uploaded dataset
+2024-05-16 08:45:00,219 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 08:45:00,221 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 08:50:00,082 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 08:50:00,084 WARNING fail to pull uploaded dataset
+2024-05-16 08:50:00,101 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 08:50:00,103 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 08:55:00,092 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 08:55:00,095 WARNING fail to pull uploaded dataset
+2024-05-16 08:55:00,113 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 08:55:00,115 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 13:19:41,491 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 13:19:41,534 WARNING fail to pull uploaded dataset
+2024-05-16 13:19:57,400 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 13:19:57,403 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 13:20:00,263 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 13:20:00,270 WARNING fail to pull uploaded dataset
+2024-05-16 13:20:00,368 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 13:20:00,371 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 13:25:00,150 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 13:25:00,153 WARNING fail to pull uploaded dataset
+2024-05-16 13:25:00,342 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 13:25:00,343 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 13:30:00,123 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 13:30:00,128 WARNING fail to pull uploaded dataset
+2024-05-16 13:30:00,141 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 13:30:00,143 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 13:35:00,072 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 13:35:00,078 WARNING fail to pull uploaded dataset
+2024-05-16 13:35:00,095 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 13:35:00,097 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 13:40:00,147 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 13:40:00,153 WARNING fail to pull uploaded dataset
+2024-05-16 13:40:00,170 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 13:40:00,171 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 13:45:00,066 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 13:45:00,071 WARNING fail to pull uploaded dataset
+2024-05-16 13:45:00,089 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 13:45:00,090 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 13:50:00,078 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 13:50:00,082 WARNING fail to pull uploaded dataset
+2024-05-16 13:50:00,096 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 13:50:00,098 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 13:55:00,067 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 13:55:00,070 WARNING fail to pull uploaded dataset
+2024-05-16 13:55:00,085 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 13:55:00,088 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 14:00:00,093 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 14:00:00,097 WARNING fail to pull uploaded dataset
+2024-05-16 14:00:00,173 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 14:00:00,175 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 14:05:00,067 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 14:05:00,071 WARNING fail to pull uploaded dataset
+2024-05-16 14:05:00,086 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 14:05:00,088 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 14:10:00,092 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 14:10:00,097 WARNING fail to pull uploaded dataset
+2024-05-16 14:10:00,110 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 14:10:00,112 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 14:15:00,101 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 14:15:00,104 WARNING fail to pull uploaded dataset
+2024-05-16 14:15:00,119 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 14:15:00,121 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 14:20:00,105 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 14:20:00,109 WARNING fail to pull uploaded dataset
+2024-05-16 14:20:00,127 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 14:20:00,129 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 14:25:00,068 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 14:25:00,071 WARNING fail to pull uploaded dataset
+2024-05-16 14:25:00,086 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 14:25:00,088 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 14:30:00,071 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 14:30:00,074 WARNING fail to pull uploaded dataset
+2024-05-16 14:30:00,087 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 14:30:00,088 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 14:35:00,065 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 14:35:00,068 WARNING fail to pull uploaded dataset
+2024-05-16 14:35:00,082 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 14:35:00,084 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 14:40:00,067 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 14:40:00,070 WARNING fail to pull uploaded dataset
+2024-05-16 14:40:00,083 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 14:40:00,085 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 14:45:00,075 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 14:45:00,079 WARNING fail to pull uploaded dataset
+2024-05-16 14:45:00,094 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 14:45:00,095 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 14:50:00,074 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 14:50:00,078 WARNING fail to pull uploaded dataset
+2024-05-16 14:50:00,093 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 14:50:00,094 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 14:55:00,087 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 14:55:00,091 WARNING fail to pull uploaded dataset
+2024-05-16 14:55:00,107 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 14:55:00,109 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 15:00:00,068 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 15:00:00,071 WARNING fail to pull uploaded dataset
+2024-05-16 15:00:00,084 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 15:00:00,085 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 15:05:00,070 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 15:05:00,073 WARNING fail to pull uploaded dataset
+2024-05-16 15:05:00,087 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 15:05:00,089 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 15:10:00,077 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 15:10:00,080 WARNING fail to pull uploaded dataset
+2024-05-16 15:10:00,096 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 15:10:00,097 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 15:15:00,116 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 15:15:00,120 WARNING fail to pull uploaded dataset
+2024-05-16 15:15:00,135 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 15:15:00,137 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 15:20:00,092 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 15:20:00,099 WARNING fail to pull uploaded dataset
+2024-05-16 15:20:00,116 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 15:20:00,119 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 15:25:00,122 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 15:25:00,127 WARNING fail to pull uploaded dataset
+2024-05-16 15:25:00,193 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 15:25:00,195 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 15:30:00,083 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 15:30:00,087 WARNING fail to pull uploaded dataset
+2024-05-16 15:30:00,103 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 15:30:00,106 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 15:35:00,088 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 15:35:00,092 WARNING fail to pull uploaded dataset
+2024-05-16 15:35:00,108 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 15:35:00,110 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 15:40:00,069 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 15:40:00,073 WARNING fail to pull uploaded dataset
+2024-05-16 15:40:00,087 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 15:40:00,088 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 15:45:00,451 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 15:45:00,459 WARNING fail to pull uploaded dataset
+2024-05-16 15:45:00,476 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 15:45:00,478 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 15:50:00,068 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 15:50:00,071 WARNING fail to pull uploaded dataset
+2024-05-16 15:50:00,084 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 15:50:00,087 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 15:55:00,068 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 15:55:00,071 WARNING fail to pull uploaded dataset
+2024-05-16 15:55:00,098 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 15:55:00,099 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-16 16:00:00,247 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-16 16:00:00,261 WARNING fail to pull uploaded dataset
+2024-05-16 16:00:00,291 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-16 16:00:00,294 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 02:11:39,542 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 02:11:39,623 WARNING fail to pull uploaded dataset
+2024-05-17 02:11:47,544 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 02:11:47,547 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 02:15:00,194 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 02:15:00,197 WARNING fail to pull uploaded dataset
+2024-05-17 02:15:00,420 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 02:15:00,423 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 02:20:00,077 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 02:20:00,260 WARNING fail to pull uploaded dataset
+2024-05-17 02:20:00,404 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 02:20:00,475 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 02:25:00,891 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 02:25:00,896 WARNING fail to pull uploaded dataset
+2024-05-17 02:25:01,204 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 02:25:01,206 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 02:30:01,095 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 02:30:01,223 WARNING fail to pull uploaded dataset
+2024-05-17 02:30:01,577 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 02:30:01,579 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 02:35:00,067 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 02:35:00,117 WARNING fail to pull uploaded dataset
+2024-05-17 02:35:00,131 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 02:35:00,134 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 02:40:03,981 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 02:40:10,153 WARNING fail to pull uploaded dataset
+2024-05-17 02:40:11,861 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 02:40:11,863 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 02:45:03,685 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 02:45:04,312 WARNING fail to pull uploaded dataset
+2024-05-17 02:45:05,410 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 02:45:05,493 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 02:50:01,143 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 02:50:01,660 WARNING fail to pull uploaded dataset
+2024-05-17 02:50:02,061 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 02:50:02,065 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 03:24:50,783 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 03:24:51,405 WARNING fail to pull uploaded dataset
+2024-05-17 03:24:52,671 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 03:24:53,374 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 03:25:00,063 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 03:25:00,153 WARNING fail to pull uploaded dataset
+2024-05-17 03:25:00,305 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 03:25:00,307 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 03:30:00,693 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 03:30:00,696 WARNING fail to pull uploaded dataset
+2024-05-17 03:30:00,906 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 03:30:00,908 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 03:35:01,453 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 03:35:01,635 WARNING fail to pull uploaded dataset
+2024-05-17 03:35:02,222 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 03:35:02,381 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 03:40:00,072 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 03:40:00,120 WARNING fail to pull uploaded dataset
+2024-05-17 03:40:00,179 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 03:40:00,181 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 03:45:02,254 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 03:45:02,259 WARNING fail to pull uploaded dataset
+2024-05-17 03:45:02,496 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 03:45:02,498 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 03:50:01,641 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 03:50:02,202 WARNING fail to pull uploaded dataset
+2024-05-17 03:50:02,932 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 03:50:02,934 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 03:55:04,501 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 03:55:05,317 WARNING fail to pull uploaded dataset
+2024-05-17 03:55:05,904 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 03:55:05,906 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 04:00:11,805 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 04:00:24,800 WARNING fail to pull uploaded dataset
+2024-05-17 04:00:28,231 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 04:00:29,891 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 04:05:16,532 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 04:05:17,937 WARNING fail to pull uploaded dataset
+2024-05-17 04:05:21,356 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 04:05:23,930 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 04:10:04,668 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 04:10:06,361 WARNING fail to pull uploaded dataset
+2024-05-17 04:10:08,482 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 04:10:10,698 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 04:15:01,783 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 04:15:02,608 WARNING fail to pull uploaded dataset
+2024-05-17 04:15:03,230 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 04:15:03,305 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 04:20:02,209 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 04:20:02,811 WARNING fail to pull uploaded dataset
+2024-05-17 04:20:03,867 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 04:20:04,178 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 04:25:01,012 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 04:25:01,407 WARNING fail to pull uploaded dataset
+2024-05-17 04:25:01,704 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 04:25:01,836 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 04:30:05,050 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 04:30:05,900 WARNING fail to pull uploaded dataset
+2024-05-17 04:30:06,575 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 04:30:06,577 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 04:35:06,654 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 04:35:07,081 WARNING fail to pull uploaded dataset
+2024-05-17 04:35:08,257 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 04:35:08,417 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 04:40:01,179 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 04:40:01,303 WARNING fail to pull uploaded dataset
+2024-05-17 04:40:01,695 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 04:40:01,707 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 04:45:02,961 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 04:45:03,355 WARNING fail to pull uploaded dataset
+2024-05-17 04:45:03,910 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 04:45:03,913 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 04:50:01,080 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 04:50:01,293 WARNING fail to pull uploaded dataset
+2024-05-17 04:50:01,435 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 04:50:01,436 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 04:55:07,681 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 04:55:10,430 WARNING fail to pull uploaded dataset
+2024-05-17 04:55:11,021 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 04:55:11,619 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 05:00:05,706 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 05:00:06,278 WARNING fail to pull uploaded dataset
+2024-05-17 05:00:07,776 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 05:00:07,837 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 05:05:01,565 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 05:05:02,555 WARNING fail to pull uploaded dataset
+2024-05-17 05:05:03,635 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 05:05:05,315 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 05:10:16,936 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 05:10:25,600 WARNING fail to pull uploaded dataset
+2024-05-17 05:10:30,196 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 05:10:35,254 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 05:15:25,085 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 05:15:26,469 WARNING fail to pull uploaded dataset
+2024-05-17 05:15:31,566 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 05:15:31,975 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 05:20:39,585 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 05:20:49,571 WARNING fail to pull uploaded dataset
+2024-05-17 05:20:53,125 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 05:20:55,178 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 05:25:11,560 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 05:25:14,442 WARNING fail to pull uploaded dataset
+2024-05-17 05:25:20,173 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 05:25:24,185 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 05:30:23,930 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 05:30:25,358 WARNING fail to pull uploaded dataset
+2024-05-17 05:30:32,589 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 05:30:34,139 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 05:35:35,446 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 05:35:38,962 WARNING fail to pull uploaded dataset
+2024-05-17 05:35:41,559 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 05:35:44,287 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 05:40:03,180 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 05:40:03,184 WARNING fail to pull uploaded dataset
+2024-05-17 05:40:23,377 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 05:40:23,392 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 08:00:37,819 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 08:00:37,972 WARNING fail to pull uploaded dataset
+2024-05-17 08:00:40,369 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 08:00:40,385 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 08:05:00,173 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 08:05:00,179 WARNING fail to pull uploaded dataset
+2024-05-17 08:05:00,218 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 08:05:00,223 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 08:10:02,304 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 08:10:02,309 WARNING fail to pull uploaded dataset
+2024-05-17 08:10:02,617 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 08:10:02,620 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 08:15:00,217 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 08:15:00,222 WARNING fail to pull uploaded dataset
+2024-05-17 08:15:00,378 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 08:15:00,382 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 08:31:02,630 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 08:31:02,984 WARNING fail to pull uploaded dataset
+2024-05-17 08:31:04,022 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 08:31:04,280 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 08:35:00,962 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 08:35:00,967 WARNING fail to pull uploaded dataset
+2024-05-17 08:35:05,028 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 08:35:05,031 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 08:40:00,392 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 08:40:00,397 WARNING fail to pull uploaded dataset
+2024-05-17 08:40:01,074 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 08:40:01,077 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 08:45:00,163 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 08:45:00,167 WARNING fail to pull uploaded dataset
+2024-05-17 08:45:00,244 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 08:45:00,246 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 08:50:00,192 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 08:50:00,198 WARNING fail to pull uploaded dataset
+2024-05-17 08:50:00,225 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 08:50:00,449 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 08:55:00,109 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 08:55:00,114 WARNING fail to pull uploaded dataset
+2024-05-17 08:55:00,136 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 08:55:00,138 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 09:00:00,094 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 09:00:00,099 WARNING fail to pull uploaded dataset
+2024-05-17 09:00:00,121 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 09:00:00,123 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 09:05:00,451 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 09:05:00,457 WARNING fail to pull uploaded dataset
+2024-05-17 09:05:00,481 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 09:05:00,484 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 09:10:00,096 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 09:10:00,101 WARNING fail to pull uploaded dataset
+2024-05-17 09:10:00,139 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 09:10:00,141 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 09:15:00,300 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 09:15:00,306 WARNING fail to pull uploaded dataset
+2024-05-17 09:15:00,386 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 09:15:00,389 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 12:18:04,910 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 12:18:05,144 WARNING fail to pull uploaded dataset
+2024-05-17 12:18:05,892 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 12:18:05,895 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 12:20:00,164 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 12:20:00,168 WARNING fail to pull uploaded dataset
+2024-05-17 12:20:00,435 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 12:20:00,437 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 12:25:00,131 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 12:25:00,134 WARNING fail to pull uploaded dataset
+2024-05-17 12:25:00,167 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 12:25:00,169 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 12:30:00,539 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 12:30:00,542 WARNING fail to pull uploaded dataset
+2024-05-17 12:30:00,555 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 12:30:00,556 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 12:35:00,311 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 12:35:00,314 WARNING fail to pull uploaded dataset
+2024-05-17 12:35:00,332 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 12:35:00,334 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 12:40:00,153 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 12:40:00,157 WARNING fail to pull uploaded dataset
+2024-05-17 12:40:00,223 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 12:40:00,225 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 12:45:00,067 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 12:45:00,070 WARNING fail to pull uploaded dataset
+2024-05-17 12:45:00,085 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 12:45:00,087 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 12:50:00,069 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 12:50:00,073 WARNING fail to pull uploaded dataset
+2024-05-17 12:50:00,087 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 12:50:00,088 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 12:55:00,067 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 12:55:00,071 WARNING fail to pull uploaded dataset
+2024-05-17 12:55:00,092 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 12:55:00,094 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 13:00:00,095 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 13:00:00,099 WARNING fail to pull uploaded dataset
+2024-05-17 13:00:00,115 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 13:00:00,117 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 13:05:00,065 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 13:05:00,068 WARNING fail to pull uploaded dataset
+2024-05-17 13:05:00,082 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 13:05:00,084 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 13:10:00,065 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 13:10:00,069 WARNING fail to pull uploaded dataset
+2024-05-17 13:10:00,082 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 13:10:00,083 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 13:15:00,068 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 13:15:00,071 WARNING fail to pull uploaded dataset
+2024-05-17 13:15:00,086 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 13:15:00,088 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 13:20:00,080 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 13:20:00,083 WARNING fail to pull uploaded dataset
+2024-05-17 13:20:00,100 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 13:20:00,102 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 13:25:00,288 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 13:25:00,338 WARNING fail to pull uploaded dataset
+2024-05-17 13:25:00,447 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 13:25:00,449 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 13:30:00,281 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 13:30:00,326 WARNING fail to pull uploaded dataset
+2024-05-17 13:30:00,517 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 13:30:00,520 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 13:35:00,086 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 13:35:00,090 WARNING fail to pull uploaded dataset
+2024-05-17 13:35:00,104 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 13:35:00,106 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 13:40:00,099 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 13:40:00,102 WARNING fail to pull uploaded dataset
+2024-05-17 13:40:00,123 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 13:40:00,126 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 13:45:00,304 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 13:45:00,309 WARNING fail to pull uploaded dataset
+2024-05-17 13:45:00,574 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 13:45:00,576 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 13:50:00,065 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 13:50:00,069 WARNING fail to pull uploaded dataset
+2024-05-17 13:50:00,108 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 13:50:00,110 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 13:55:00,111 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 13:55:00,116 WARNING fail to pull uploaded dataset
+2024-05-17 13:55:00,241 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 13:55:00,244 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 14:00:00,101 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 14:00:00,104 WARNING fail to pull uploaded dataset
+2024-05-17 14:00:00,119 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 14:00:00,121 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 14:05:00,125 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 14:05:00,129 WARNING fail to pull uploaded dataset
+2024-05-17 14:05:00,161 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 14:05:00,163 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 14:10:00,071 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 14:10:00,074 WARNING fail to pull uploaded dataset
+2024-05-17 14:10:00,093 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 14:10:00,095 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 14:15:00,082 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 14:15:00,088 WARNING fail to pull uploaded dataset
+2024-05-17 14:15:00,121 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 14:15:00,123 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 14:20:00,194 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 14:20:00,204 WARNING fail to pull uploaded dataset
+2024-05-17 14:20:00,224 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 14:20:00,226 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 14:25:57,809 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 14:25:58,020 WARNING fail to pull uploaded dataset
+2024-05-17 14:25:59,073 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 14:25:59,075 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 14:30:00,080 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 14:30:00,083 WARNING fail to pull uploaded dataset
+2024-05-17 14:30:00,098 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 14:30:00,099 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 14:35:00,115 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 14:35:00,124 WARNING fail to pull uploaded dataset
+2024-05-17 14:35:00,165 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 14:35:00,167 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 14:40:00,123 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 14:40:00,129 WARNING fail to pull uploaded dataset
+2024-05-17 14:40:00,155 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 14:40:00,157 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 14:45:00,079 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 14:45:00,082 WARNING fail to pull uploaded dataset
+2024-05-17 14:45:00,099 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 14:45:00,100 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 14:50:00,147 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 14:50:00,197 WARNING fail to pull uploaded dataset
+2024-05-17 14:50:00,298 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 14:50:00,301 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 14:55:00,173 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 14:55:00,177 WARNING fail to pull uploaded dataset
+2024-05-17 14:55:00,192 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 14:55:00,194 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 15:00:00,113 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 15:00:00,118 WARNING fail to pull uploaded dataset
+2024-05-17 15:00:00,146 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 15:00:00,148 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 15:05:00,208 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 15:05:00,214 WARNING fail to pull uploaded dataset
+2024-05-17 15:05:00,378 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 15:05:00,380 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 15:10:00,352 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 15:10:00,440 WARNING fail to pull uploaded dataset
+2024-05-17 15:10:00,458 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 15:10:00,461 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 15:15:00,205 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 15:15:00,210 WARNING fail to pull uploaded dataset
+2024-05-17 15:15:00,307 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 15:15:00,309 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 15:20:00,107 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 15:20:00,111 WARNING fail to pull uploaded dataset
+2024-05-17 15:20:00,129 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 15:20:00,131 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 15:25:00,123 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 15:25:00,129 WARNING fail to pull uploaded dataset
+2024-05-17 15:25:00,191 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 15:25:00,193 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 15:30:00,068 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 15:30:00,072 WARNING fail to pull uploaded dataset
+2024-05-17 15:30:00,086 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 15:30:00,088 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 15:35:00,076 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 15:35:00,079 WARNING fail to pull uploaded dataset
+2024-05-17 15:35:00,108 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 15:35:00,110 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 15:40:00,124 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 15:40:00,129 WARNING fail to pull uploaded dataset
+2024-05-17 15:40:00,144 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 15:40:00,146 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-17 15:45:00,239 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-17 15:45:00,243 WARNING fail to pull uploaded dataset
+2024-05-17 15:45:00,631 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-17 15:45:00,633 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 14:37:10,300 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 14:37:10,346 WARNING fail to pull uploaded dataset
+2024-05-19 14:37:10,527 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 14:37:10,578 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 14:40:05,261 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 14:40:05,265 WARNING fail to pull uploaded dataset
+2024-05-19 14:40:06,830 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 14:40:06,832 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 14:45:00,143 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 14:45:00,146 WARNING fail to pull uploaded dataset
+2024-05-19 14:45:00,733 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 14:45:00,735 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 14:50:00,073 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 14:50:00,076 WARNING fail to pull uploaded dataset
+2024-05-19 14:50:00,092 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 14:50:00,093 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 14:55:00,071 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 14:55:00,075 WARNING fail to pull uploaded dataset
+2024-05-19 14:55:00,090 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 14:55:00,092 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 15:00:00,077 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 15:00:00,081 WARNING fail to pull uploaded dataset
+2024-05-19 15:00:00,098 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 15:00:00,100 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 15:05:00,078 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 15:05:00,082 WARNING fail to pull uploaded dataset
+2024-05-19 15:05:00,099 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 15:05:00,102 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 15:10:00,090 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 15:10:00,094 WARNING fail to pull uploaded dataset
+2024-05-19 15:10:00,111 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 15:10:00,113 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 15:15:00,085 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 15:15:00,089 WARNING fail to pull uploaded dataset
+2024-05-19 15:15:00,106 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 15:15:00,109 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 15:20:00,091 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 15:20:00,094 WARNING fail to pull uploaded dataset
+2024-05-19 15:20:00,109 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 15:20:00,111 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 15:25:00,079 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 15:25:00,083 WARNING fail to pull uploaded dataset
+2024-05-19 15:25:00,096 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 15:25:00,099 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 15:30:00,096 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 15:30:00,100 WARNING fail to pull uploaded dataset
+2024-05-19 15:30:00,117 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 15:30:00,119 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 15:35:00,100 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 15:35:00,104 WARNING fail to pull uploaded dataset
+2024-05-19 15:35:00,120 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 15:35:00,122 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 15:40:00,082 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 15:40:00,087 WARNING fail to pull uploaded dataset
+2024-05-19 15:40:00,105 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 15:40:00,107 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 15:45:00,096 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 15:45:00,100 WARNING fail to pull uploaded dataset
+2024-05-19 15:45:00,132 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 15:45:00,134 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 15:50:00,080 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 15:50:00,083 WARNING fail to pull uploaded dataset
+2024-05-19 15:50:00,099 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 15:50:00,101 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 15:55:00,084 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 15:55:00,088 WARNING fail to pull uploaded dataset
+2024-05-19 15:55:00,104 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 15:55:00,106 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 16:00:00,090 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 16:00:00,095 WARNING fail to pull uploaded dataset
+2024-05-19 16:00:00,114 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 16:00:00,116 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 16:05:00,091 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 16:05:00,095 WARNING fail to pull uploaded dataset
+2024-05-19 16:05:00,111 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 16:05:00,113 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 16:10:00,085 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 16:10:00,089 WARNING fail to pull uploaded dataset
+2024-05-19 16:10:00,108 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 16:10:00,110 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 16:15:00,085 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 16:15:00,090 WARNING fail to pull uploaded dataset
+2024-05-19 16:15:00,116 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 16:15:00,119 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 16:20:00,080 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 16:20:00,084 WARNING fail to pull uploaded dataset
+2024-05-19 16:20:00,101 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 16:20:00,103 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 16:25:00,084 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 16:25:00,087 WARNING fail to pull uploaded dataset
+2024-05-19 16:25:00,103 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 16:25:00,105 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 16:30:00,076 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 16:30:00,080 WARNING fail to pull uploaded dataset
+2024-05-19 16:30:00,096 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 16:30:00,098 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 16:35:00,082 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 16:35:00,086 WARNING fail to pull uploaded dataset
+2024-05-19 16:35:00,101 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 16:35:00,103 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 16:40:00,081 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 16:40:00,085 WARNING fail to pull uploaded dataset
+2024-05-19 16:40:00,101 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 16:40:00,104 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 16:45:00,073 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 16:45:00,076 WARNING fail to pull uploaded dataset
+2024-05-19 16:45:00,087 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 16:45:00,088 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 16:50:00,089 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 16:50:00,093 WARNING fail to pull uploaded dataset
+2024-05-19 16:50:00,111 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 16:50:00,113 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 16:55:00,078 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 16:55:00,083 WARNING fail to pull uploaded dataset
+2024-05-19 16:55:00,099 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 16:55:00,101 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 17:00:00,069 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 17:00:00,073 WARNING fail to pull uploaded dataset
+2024-05-19 17:00:00,086 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 17:00:00,087 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 17:05:00,067 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 17:05:00,071 WARNING fail to pull uploaded dataset
+2024-05-19 17:05:00,087 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 17:05:00,089 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 17:10:00,077 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 17:10:00,081 WARNING fail to pull uploaded dataset
+2024-05-19 17:10:00,097 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 17:10:00,099 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 17:15:00,536 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 17:15:00,540 WARNING fail to pull uploaded dataset
+2024-05-19 17:15:00,557 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 17:15:00,559 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 17:20:00,114 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 17:20:00,118 WARNING fail to pull uploaded dataset
+2024-05-19 17:20:00,136 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 17:20:00,138 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 17:25:00,086 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 17:25:00,090 WARNING fail to pull uploaded dataset
+2024-05-19 17:25:00,105 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 17:25:00,106 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 17:30:00,073 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 17:30:00,078 WARNING fail to pull uploaded dataset
+2024-05-19 17:30:00,092 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 17:30:00,094 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 17:35:00,079 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 17:35:00,083 WARNING fail to pull uploaded dataset
+2024-05-19 17:35:00,099 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 17:35:00,101 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 17:40:00,112 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 17:40:00,116 WARNING fail to pull uploaded dataset
+2024-05-19 17:40:00,131 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 17:40:00,133 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 17:45:00,066 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 17:45:00,070 WARNING fail to pull uploaded dataset
+2024-05-19 17:45:00,084 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 17:45:00,085 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 17:50:00,068 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 17:50:00,072 WARNING fail to pull uploaded dataset
+2024-05-19 17:50:00,084 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 17:50:00,085 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 17:55:00,087 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 17:55:00,092 WARNING fail to pull uploaded dataset
+2024-05-19 17:55:00,111 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 17:55:00,113 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 18:00:00,368 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 18:00:00,372 WARNING fail to pull uploaded dataset
+2024-05-19 18:00:00,392 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 18:00:00,394 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 18:05:00,142 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 18:05:00,166 WARNING fail to pull uploaded dataset
+2024-05-19 18:05:00,207 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 18:05:00,210 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 18:10:00,208 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 18:10:00,215 WARNING fail to pull uploaded dataset
+2024-05-19 18:10:00,295 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 18:10:00,296 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 18:15:00,080 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 18:15:00,084 WARNING fail to pull uploaded dataset
+2024-05-19 18:15:00,106 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 18:15:00,109 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 18:20:00,086 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 18:20:00,090 WARNING fail to pull uploaded dataset
+2024-05-19 18:20:00,109 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 18:20:00,111 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 18:25:00,093 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 18:25:00,098 WARNING fail to pull uploaded dataset
+2024-05-19 18:25:00,114 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 18:25:00,116 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 18:30:00,075 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 18:30:00,080 WARNING fail to pull uploaded dataset
+2024-05-19 18:30:00,097 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 18:30:00,099 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 18:35:00,099 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 18:35:00,103 WARNING fail to pull uploaded dataset
+2024-05-19 18:35:00,120 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 18:35:00,123 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 18:40:00,083 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 18:40:00,086 WARNING fail to pull uploaded dataset
+2024-05-19 18:40:00,102 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 18:40:00,104 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 18:45:00,084 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 18:45:00,089 WARNING fail to pull uploaded dataset
+2024-05-19 18:45:00,105 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 18:45:00,107 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 18:50:00,092 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 18:50:00,095 WARNING fail to pull uploaded dataset
+2024-05-19 18:50:00,111 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 18:50:00,113 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 18:55:00,100 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 18:55:00,104 WARNING fail to pull uploaded dataset
+2024-05-19 18:55:00,116 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 18:55:00,118 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 19:00:00,135 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 19:00:00,139 WARNING fail to pull uploaded dataset
+2024-05-19 19:00:00,163 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 19:00:00,171 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 19:05:00,061 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 19:05:00,064 WARNING fail to pull uploaded dataset
+2024-05-19 19:05:00,076 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 19:05:00,077 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 19:10:00,805 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 19:10:00,808 WARNING fail to pull uploaded dataset
+2024-05-19 19:10:01,030 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 19:10:01,032 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 19:15:00,071 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 19:15:00,075 WARNING fail to pull uploaded dataset
+2024-05-19 19:15:00,089 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 19:15:00,091 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 19:20:00,301 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 19:20:00,305 WARNING fail to pull uploaded dataset
+2024-05-19 19:20:00,593 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 19:20:00,595 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 19:25:00,069 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 19:25:00,073 WARNING fail to pull uploaded dataset
+2024-05-19 19:25:00,085 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 19:25:00,087 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 19:30:00,074 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 19:30:00,077 WARNING fail to pull uploaded dataset
+2024-05-19 19:30:00,104 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 19:30:00,106 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 19:35:00,075 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 19:35:00,078 WARNING fail to pull uploaded dataset
+2024-05-19 19:35:00,091 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 19:35:00,092 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 19:40:00,105 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 19:40:00,108 WARNING fail to pull uploaded dataset
+2024-05-19 19:40:00,141 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 19:40:00,153 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 19:45:00,498 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 19:45:00,502 WARNING fail to pull uploaded dataset
+2024-05-19 19:45:00,589 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 19:45:00,591 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 19:50:00,369 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 19:50:00,405 WARNING fail to pull uploaded dataset
+2024-05-19 19:50:00,560 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 19:50:00,562 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 19:55:00,128 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 19:55:00,155 WARNING fail to pull uploaded dataset
+2024-05-19 19:55:00,231 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 19:55:00,235 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 20:00:00,187 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 20:00:00,191 WARNING fail to pull uploaded dataset
+2024-05-19 20:00:00,257 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 20:00:00,259 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 20:05:00,067 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 20:05:00,070 WARNING fail to pull uploaded dataset
+2024-05-19 20:05:00,081 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 20:05:00,083 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 20:10:00,349 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 20:10:00,392 WARNING fail to pull uploaded dataset
+2024-05-19 20:10:00,440 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 20:10:00,442 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 20:15:00,068 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 20:15:00,073 WARNING fail to pull uploaded dataset
+2024-05-19 20:15:00,091 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 20:15:00,093 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 20:20:00,114 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 20:20:00,118 WARNING fail to pull uploaded dataset
+2024-05-19 20:20:00,205 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 20:20:00,218 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 20:25:00,449 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 20:25:00,454 WARNING fail to pull uploaded dataset
+2024-05-19 20:25:01,472 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 20:25:01,475 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 20:30:00,867 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 20:30:00,871 WARNING fail to pull uploaded dataset
+2024-05-19 20:30:01,365 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 20:30:01,367 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 20:35:00,209 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 20:35:00,212 WARNING fail to pull uploaded dataset
+2024-05-19 20:35:00,229 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 20:35:00,231 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 20:40:00,077 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 20:40:00,081 WARNING fail to pull uploaded dataset
+2024-05-19 20:40:00,098 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 20:40:00,100 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 20:45:00,071 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 20:45:00,074 WARNING fail to pull uploaded dataset
+2024-05-19 20:45:00,086 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 20:45:00,088 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 20:50:00,065 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 20:50:00,068 WARNING fail to pull uploaded dataset
+2024-05-19 20:50:00,081 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 20:50:00,083 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 20:55:00,074 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 20:55:00,077 WARNING fail to pull uploaded dataset
+2024-05-19 20:55:00,090 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 20:55:00,091 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 21:00:00,076 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 21:00:00,079 WARNING fail to pull uploaded dataset
+2024-05-19 21:00:00,092 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 21:00:00,094 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 23:45:10,514 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 23:45:10,517 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-19 23:45:10,549 WARNING fail to pull uploaded dataset
+2024-05-19 23:45:10,551 WARNING fail to pull uploaded dataset
+2024-05-19 23:45:15,674 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 23:45:15,674 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-19 23:45:15,676 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-19 23:45:15,676 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 01:17:32,619 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 01:17:32,652 WARNING fail to pull uploaded dataset
+2024-05-20 01:17:32,885 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 01:17:32,888 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 01:20:00,139 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 01:20:00,156 WARNING fail to pull uploaded dataset
+2024-05-20 01:20:00,285 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 01:20:00,287 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 01:25:00,687 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 01:25:00,936 WARNING fail to pull uploaded dataset
+2024-05-20 01:25:01,057 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 01:25:01,059 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 01:30:00,702 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 01:30:00,706 WARNING fail to pull uploaded dataset
+2024-05-20 01:30:00,782 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 01:30:00,784 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 01:35:00,384 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 01:35:00,389 WARNING fail to pull uploaded dataset
+2024-05-20 01:35:00,675 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 01:35:02,046 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 01:40:01,144 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 01:40:01,227 WARNING fail to pull uploaded dataset
+2024-05-20 01:40:01,314 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 01:40:01,316 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 02:21:42,870 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 02:21:43,600 WARNING fail to pull uploaded dataset
+2024-05-20 02:22:04,199 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 02:22:04,201 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 02:25:00,125 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 02:25:00,128 WARNING fail to pull uploaded dataset
+2024-05-20 02:25:00,142 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 02:25:00,143 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 02:30:03,309 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 02:30:04,603 WARNING fail to pull uploaded dataset
+2024-05-20 02:30:06,234 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 02:30:06,236 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 02:35:00,345 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 02:35:00,349 WARNING fail to pull uploaded dataset
+2024-05-20 02:35:00,492 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 02:35:00,494 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 02:40:02,971 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 02:40:04,604 WARNING fail to pull uploaded dataset
+2024-05-20 02:40:08,481 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 02:40:09,213 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 02:45:00,230 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 02:45:00,284 WARNING fail to pull uploaded dataset
+2024-05-20 02:45:02,669 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 02:45:02,680 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 02:50:03,435 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 02:50:04,674 WARNING fail to pull uploaded dataset
+2024-05-20 02:50:05,138 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 02:50:05,425 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 02:55:01,806 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 02:55:01,978 WARNING fail to pull uploaded dataset
+2024-05-20 02:55:02,298 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 02:55:02,299 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 03:00:00,221 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 03:00:00,225 WARNING fail to pull uploaded dataset
+2024-05-20 03:00:00,435 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 03:00:00,437 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 03:05:00,348 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 03:05:00,373 WARNING fail to pull uploaded dataset
+2024-05-20 03:05:00,416 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 03:05:00,418 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 03:10:07,574 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 03:10:08,246 WARNING fail to pull uploaded dataset
+2024-05-20 03:10:08,432 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 03:10:08,434 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 03:15:00,344 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 03:15:00,461 WARNING fail to pull uploaded dataset
+2024-05-20 03:15:00,592 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 03:15:00,595 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 03:20:02,215 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 03:20:04,631 WARNING fail to pull uploaded dataset
+2024-05-20 03:20:05,740 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 03:20:05,742 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 03:25:03,175 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 03:25:04,513 WARNING fail to pull uploaded dataset
+2024-05-20 03:25:06,221 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 03:25:07,187 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 03:30:01,345 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 03:30:01,573 WARNING fail to pull uploaded dataset
+2024-05-20 03:30:02,004 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 03:30:02,228 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 03:35:04,961 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 03:35:11,666 WARNING fail to pull uploaded dataset
+2024-05-20 03:35:15,499 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 03:35:15,502 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 03:40:01,442 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 03:40:01,658 WARNING fail to pull uploaded dataset
+2024-05-20 03:40:01,812 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 03:40:01,850 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 03:45:01,235 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 03:45:01,341 WARNING fail to pull uploaded dataset
+2024-05-20 03:45:01,749 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 03:45:01,795 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 03:50:04,917 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 03:50:06,378 WARNING fail to pull uploaded dataset
+2024-05-20 03:50:07,753 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 03:50:07,982 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-20 03:55:04,954 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-20 03:55:06,504 WARNING fail to pull uploaded dataset
+2024-05-20 03:55:07,057 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-20 03:55:07,546 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 01:57:08,591 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 01:57:08,752 WARNING fail to pull uploaded dataset
+2024-05-21 01:57:10,064 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 01:57:10,404 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 02:00:00,081 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 02:00:00,086 WARNING fail to pull uploaded dataset
+2024-05-21 02:00:00,105 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 02:00:00,110 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 02:05:00,071 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 02:05:00,074 WARNING fail to pull uploaded dataset
+2024-05-21 02:05:00,087 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 02:05:00,089 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 02:10:00,068 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 02:10:00,071 WARNING fail to pull uploaded dataset
+2024-05-21 02:10:00,090 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 02:10:00,092 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 02:15:00,157 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 02:15:00,160 WARNING fail to pull uploaded dataset
+2024-05-21 02:15:00,296 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 02:15:00,300 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 02:20:04,478 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 02:20:04,483 WARNING fail to pull uploaded dataset
+2024-05-21 02:20:04,593 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 02:20:04,604 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 02:25:00,294 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 02:25:00,308 WARNING fail to pull uploaded dataset
+2024-05-21 02:25:00,337 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 02:25:00,339 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 02:30:00,249 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 02:30:00,267 WARNING fail to pull uploaded dataset
+2024-05-21 02:30:00,316 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 02:30:00,318 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 02:35:00,156 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 02:35:00,163 WARNING fail to pull uploaded dataset
+2024-05-21 02:35:00,185 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 02:35:00,187 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 02:40:00,300 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 02:40:00,315 WARNING fail to pull uploaded dataset
+2024-05-21 02:40:00,411 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 02:40:00,414 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 02:45:00,365 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 02:45:00,371 WARNING fail to pull uploaded dataset
+2024-05-21 02:45:00,460 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 02:45:00,463 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 02:50:00,117 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 02:50:00,122 WARNING fail to pull uploaded dataset
+2024-05-21 02:50:00,154 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 02:50:00,157 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 02:55:05,829 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 02:55:05,891 WARNING fail to pull uploaded dataset
+2024-05-21 02:55:06,944 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 02:55:06,946 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 03:00:07,879 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 03:00:07,924 WARNING fail to pull uploaded dataset
+2024-05-21 03:00:10,021 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 03:00:11,867 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 03:05:12,678 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 03:05:12,889 WARNING fail to pull uploaded dataset
+2024-05-21 03:05:19,058 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 03:05:19,999 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 03:10:03,524 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 03:10:03,711 WARNING fail to pull uploaded dataset
+2024-05-21 03:10:04,038 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 03:10:04,042 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 03:22:19,790 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 03:22:20,641 WARNING fail to pull uploaded dataset
+2024-05-21 03:22:21,405 DEBUG Checker already running
+2024-05-21 03:22:22,869 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 03:22:22,872 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 03:25:01,829 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 03:25:01,833 WARNING fail to pull uploaded dataset
+2024-05-21 03:25:01,850 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 03:25:01,854 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 03:30:00,209 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 03:30:00,214 WARNING fail to pull uploaded dataset
+2024-05-21 03:30:00,238 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 03:30:00,241 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 03:35:00,247 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 03:35:00,252 WARNING fail to pull uploaded dataset
+2024-05-21 03:35:00,271 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 03:35:00,304 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 03:40:00,386 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 03:40:00,389 WARNING fail to pull uploaded dataset
+2024-05-21 03:40:00,775 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 03:40:00,783 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 03:45:00,560 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 03:45:00,569 WARNING fail to pull uploaded dataset
+2024-05-21 03:45:00,875 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 03:45:00,908 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 03:50:00,852 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 03:50:00,873 WARNING fail to pull uploaded dataset
+2024-05-21 03:50:01,030 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 03:50:01,034 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 03:55:00,397 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 03:55:00,401 WARNING fail to pull uploaded dataset
+2024-05-21 03:55:00,491 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 03:55:00,494 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 04:00:01,183 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 04:00:01,191 WARNING fail to pull uploaded dataset
+2024-05-21 04:00:01,237 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 04:00:01,240 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 04:05:00,134 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 04:05:00,139 WARNING fail to pull uploaded dataset
+2024-05-21 04:05:00,160 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 04:05:00,163 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 04:10:00,089 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 04:10:00,094 WARNING fail to pull uploaded dataset
+2024-05-21 04:10:00,113 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 04:10:00,115 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 04:15:00,181 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 04:15:00,197 WARNING fail to pull uploaded dataset
+2024-05-21 04:15:00,217 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 04:15:00,221 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 04:20:00,395 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 04:20:00,401 WARNING fail to pull uploaded dataset
+2024-05-21 04:20:00,515 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 04:20:00,517 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 04:25:07,877 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 04:25:09,314 WARNING fail to pull uploaded dataset
+2024-05-21 04:25:11,767 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 04:25:11,936 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 04:30:00,168 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 04:30:00,172 WARNING fail to pull uploaded dataset
+2024-05-21 04:30:00,304 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 04:30:00,306 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 04:35:00,097 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 04:35:00,101 WARNING fail to pull uploaded dataset
+2024-05-21 04:35:00,120 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 04:35:00,122 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 04:40:00,085 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 04:40:00,091 WARNING fail to pull uploaded dataset
+2024-05-21 04:40:00,119 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 04:40:00,122 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 04:45:00,178 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 04:45:00,184 WARNING fail to pull uploaded dataset
+2024-05-21 04:45:00,212 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 04:45:00,215 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 04:50:00,202 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 04:50:00,206 WARNING fail to pull uploaded dataset
+2024-05-21 04:50:00,227 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 04:50:00,229 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 04:55:00,734 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 04:55:00,741 WARNING fail to pull uploaded dataset
+2024-05-21 04:55:01,589 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 04:55:01,591 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 05:00:00,134 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 05:00:00,186 WARNING fail to pull uploaded dataset
+2024-05-21 05:00:00,281 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 05:00:00,283 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 05:05:00,391 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 05:05:00,426 WARNING fail to pull uploaded dataset
+2024-05-21 05:05:00,553 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 05:05:00,584 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 05:10:00,100 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 05:10:00,103 WARNING fail to pull uploaded dataset
+2024-05-21 05:10:00,119 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 05:10:00,121 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 05:15:00,094 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 05:15:00,098 WARNING fail to pull uploaded dataset
+2024-05-21 05:15:00,129 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 05:15:00,131 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 05:20:00,205 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 05:20:00,211 WARNING fail to pull uploaded dataset
+2024-05-21 05:20:00,418 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 05:20:00,421 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 05:25:00,340 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 05:25:00,344 WARNING fail to pull uploaded dataset
+2024-05-21 05:25:00,588 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 05:25:00,590 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 05:30:13,395 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 05:30:14,500 WARNING fail to pull uploaded dataset
+2024-05-21 05:30:17,257 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 05:30:17,441 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 05:35:04,510 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 05:35:04,658 WARNING fail to pull uploaded dataset
+2024-05-21 05:35:05,010 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 05:35:05,189 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 05:40:00,442 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 05:40:00,446 WARNING fail to pull uploaded dataset
+2024-05-21 05:40:00,845 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 05:40:00,847 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 05:45:00,614 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 05:45:00,626 WARNING fail to pull uploaded dataset
+2024-05-21 05:45:00,714 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 05:45:00,730 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 05:50:00,123 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 05:50:00,129 WARNING fail to pull uploaded dataset
+2024-05-21 05:50:00,150 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 05:50:00,153 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 05:55:00,896 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 05:55:00,900 WARNING fail to pull uploaded dataset
+2024-05-21 05:55:01,034 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 05:55:01,038 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 06:00:00,777 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 06:00:01,022 WARNING fail to pull uploaded dataset
+2024-05-21 06:00:01,433 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 06:00:01,448 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 06:05:00,541 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 06:05:00,545 WARNING fail to pull uploaded dataset
+2024-05-21 06:05:00,564 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 06:05:00,567 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 06:10:00,594 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 06:10:00,598 WARNING fail to pull uploaded dataset
+2024-05-21 06:10:00,618 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 06:10:00,624 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 06:15:00,390 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 06:15:00,403 WARNING fail to pull uploaded dataset
+2024-05-21 06:15:00,851 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 06:15:00,855 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 06:20:00,170 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 06:20:00,173 WARNING fail to pull uploaded dataset
+2024-05-21 06:20:00,189 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 06:20:00,192 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 06:25:00,292 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 06:25:00,297 WARNING fail to pull uploaded dataset
+2024-05-21 06:25:00,318 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 06:25:00,322 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 06:30:00,943 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 06:30:00,957 WARNING fail to pull uploaded dataset
+2024-05-21 06:30:01,041 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 06:30:01,045 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 06:35:00,195 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 06:35:00,208 WARNING fail to pull uploaded dataset
+2024-05-21 06:35:00,258 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 06:35:00,265 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 06:40:00,364 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 06:40:00,375 WARNING fail to pull uploaded dataset
+2024-05-21 06:40:00,493 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 06:40:00,496 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 06:45:00,397 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 06:45:00,403 WARNING fail to pull uploaded dataset
+2024-05-21 06:45:00,658 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 06:45:00,701 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 06:50:00,080 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 06:50:00,084 WARNING fail to pull uploaded dataset
+2024-05-21 06:50:00,097 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 06:50:00,099 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 06:55:00,402 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 06:55:00,426 WARNING fail to pull uploaded dataset
+2024-05-21 06:55:00,473 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 06:55:00,476 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 07:00:00,097 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 07:00:00,100 WARNING fail to pull uploaded dataset
+2024-05-21 07:00:00,118 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 07:00:00,120 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 07:05:00,132 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 07:05:00,136 WARNING fail to pull uploaded dataset
+2024-05-21 07:05:00,156 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 07:05:00,202 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 07:10:00,217 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 07:10:00,221 WARNING fail to pull uploaded dataset
+2024-05-21 07:10:00,253 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 07:10:00,255 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 07:15:00,305 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 07:15:00,332 WARNING fail to pull uploaded dataset
+2024-05-21 07:15:00,491 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 07:15:00,497 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 07:20:00,287 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 07:20:00,292 WARNING fail to pull uploaded dataset
+2024-05-21 07:20:00,358 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 07:20:00,361 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 07:25:00,416 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 07:25:00,524 WARNING fail to pull uploaded dataset
+2024-05-21 07:25:00,649 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 07:25:00,655 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 07:30:00,188 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 07:30:00,192 WARNING fail to pull uploaded dataset
+2024-05-21 07:30:00,235 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 07:30:00,238 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 07:35:00,536 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 07:35:00,553 WARNING fail to pull uploaded dataset
+2024-05-21 07:35:00,587 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 07:35:00,591 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 07:40:03,263 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 07:40:03,320 WARNING fail to pull uploaded dataset
+2024-05-21 07:40:04,325 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 07:40:04,375 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 07:45:00,185 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 07:45:00,191 WARNING fail to pull uploaded dataset
+2024-05-21 07:45:00,214 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 07:45:00,218 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 07:50:00,114 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 07:50:00,117 WARNING fail to pull uploaded dataset
+2024-05-21 07:50:00,130 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 07:50:00,132 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 07:55:00,233 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 07:55:00,237 WARNING fail to pull uploaded dataset
+2024-05-21 07:55:00,253 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 07:55:00,256 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 08:00:00,240 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 08:00:00,245 WARNING fail to pull uploaded dataset
+2024-05-21 08:00:00,309 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 08:00:00,315 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 08:05:00,112 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 08:05:00,115 WARNING fail to pull uploaded dataset
+2024-05-21 08:05:00,131 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 08:05:00,133 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 08:10:00,080 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 08:10:00,083 WARNING fail to pull uploaded dataset
+2024-05-21 08:10:00,133 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 08:10:00,135 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 08:15:00,088 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 08:15:00,092 WARNING fail to pull uploaded dataset
+2024-05-21 08:15:00,109 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 08:15:00,111 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 08:20:02,931 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 08:20:02,939 WARNING fail to pull uploaded dataset
+2024-05-21 08:20:09,130 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 08:20:09,133 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 08:25:00,324 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 08:25:00,330 WARNING fail to pull uploaded dataset
+2024-05-21 08:25:00,361 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 08:25:00,390 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 08:30:00,290 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 08:30:00,298 WARNING fail to pull uploaded dataset
+2024-05-21 08:30:00,345 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 08:30:00,353 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 08:35:00,237 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 08:35:00,246 WARNING fail to pull uploaded dataset
+2024-05-21 08:35:00,278 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 08:35:00,281 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 08:40:00,325 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 08:40:00,333 WARNING fail to pull uploaded dataset
+2024-05-21 08:40:00,453 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 08:40:00,459 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 08:45:00,430 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 08:45:00,453 WARNING fail to pull uploaded dataset
+2024-05-21 08:45:00,544 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 08:45:00,556 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 08:50:00,321 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 08:50:00,329 WARNING fail to pull uploaded dataset
+2024-05-21 08:50:00,401 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 08:50:00,403 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 08:55:00,434 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 08:55:00,453 WARNING fail to pull uploaded dataset
+2024-05-21 08:55:00,725 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 08:55:00,748 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 09:00:00,363 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 09:00:00,369 WARNING fail to pull uploaded dataset
+2024-05-21 09:00:00,465 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 09:00:00,478 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 09:05:00,080 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 09:05:00,083 WARNING fail to pull uploaded dataset
+2024-05-21 09:05:00,147 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 09:05:00,148 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 09:10:00,228 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 09:10:00,251 WARNING fail to pull uploaded dataset
+2024-05-21 09:10:00,393 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 09:10:00,394 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 09:15:00,463 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 09:15:00,466 WARNING fail to pull uploaded dataset
+2024-05-21 09:15:00,990 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 09:15:01,000 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 09:20:00,448 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 09:20:00,455 WARNING fail to pull uploaded dataset
+2024-05-21 09:20:00,482 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 09:20:00,485 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 09:25:00,752 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 09:25:00,758 WARNING fail to pull uploaded dataset
+2024-05-21 09:25:01,129 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 09:25:01,131 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-21 09:30:00,089 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-21 09:30:00,092 WARNING fail to pull uploaded dataset
+2024-05-21 09:30:00,127 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-21 09:30:00,129 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 01:27:37,233 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 01:27:37,343 WARNING fail to pull uploaded dataset
+2024-05-22 01:27:37,580 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 01:27:37,582 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 01:30:05,643 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 01:30:05,651 WARNING fail to pull uploaded dataset
+2024-05-22 01:30:05,692 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 01:30:05,711 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 01:35:00,869 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 01:35:00,873 WARNING fail to pull uploaded dataset
+2024-05-22 01:35:01,039 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 01:35:01,043 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 01:40:02,073 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 01:40:02,077 WARNING fail to pull uploaded dataset
+2024-05-22 01:40:03,254 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 01:40:03,258 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 01:45:00,080 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 01:45:00,085 WARNING fail to pull uploaded dataset
+2024-05-22 01:45:00,107 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 01:45:00,109 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 01:50:00,369 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 01:50:00,375 WARNING fail to pull uploaded dataset
+2024-05-22 01:50:00,741 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 01:50:00,743 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 01:55:05,342 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 01:55:05,345 WARNING fail to pull uploaded dataset
+2024-05-22 01:55:08,545 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 01:55:08,547 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 02:00:00,332 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 02:00:00,337 WARNING fail to pull uploaded dataset
+2024-05-22 02:00:00,568 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 02:00:00,570 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 02:05:00,421 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 02:05:00,425 WARNING fail to pull uploaded dataset
+2024-05-22 02:05:00,580 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 02:05:00,582 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 02:10:00,351 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 02:10:00,426 WARNING fail to pull uploaded dataset
+2024-05-22 02:10:00,743 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 02:10:00,745 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 02:15:00,117 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 02:15:00,122 WARNING fail to pull uploaded dataset
+2024-05-22 02:15:00,139 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 02:15:00,141 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 02:20:00,153 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 02:20:00,157 WARNING fail to pull uploaded dataset
+2024-05-22 02:20:00,174 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 02:20:00,176 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 02:25:00,103 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 02:25:00,107 WARNING fail to pull uploaded dataset
+2024-05-22 02:25:00,129 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 02:25:00,130 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 02:30:00,137 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 02:30:00,143 WARNING fail to pull uploaded dataset
+2024-05-22 02:30:00,179 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 02:30:00,182 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 02:40:38,869 DEBUG Checker already running
+2024-05-22 02:40:46,597 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 02:40:47,512 WARNING fail to pull uploaded dataset
+2024-05-22 02:40:51,596 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 02:40:51,899 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 02:45:36,350 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 02:45:36,830 WARNING fail to pull uploaded dataset
+2024-05-22 02:45:40,505 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 02:45:42,149 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 02:50:03,157 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 02:50:05,041 WARNING fail to pull uploaded dataset
+2024-05-22 02:50:09,548 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 02:50:09,860 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 02:55:03,441 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 02:55:03,604 WARNING fail to pull uploaded dataset
+2024-05-22 02:55:07,219 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 02:55:07,249 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 03:00:00,373 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 03:00:00,379 WARNING fail to pull uploaded dataset
+2024-05-22 03:00:00,394 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 03:00:00,403 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 03:05:00,108 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 03:05:00,111 WARNING fail to pull uploaded dataset
+2024-05-22 03:05:00,129 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 03:05:00,131 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 03:10:00,099 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 03:10:00,103 WARNING fail to pull uploaded dataset
+2024-05-22 03:10:00,118 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 03:10:00,121 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 03:15:00,133 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 03:15:00,139 WARNING fail to pull uploaded dataset
+2024-05-22 03:15:00,185 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 03:15:00,187 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 03:20:00,081 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 03:20:00,084 WARNING fail to pull uploaded dataset
+2024-05-22 03:20:00,098 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 03:20:00,100 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 03:25:00,072 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 03:25:00,076 WARNING fail to pull uploaded dataset
+2024-05-22 03:25:00,088 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 03:25:00,090 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 03:30:00,178 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 03:30:00,184 WARNING fail to pull uploaded dataset
+2024-05-22 03:30:00,212 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 03:30:00,214 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 03:35:00,190 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 03:35:00,195 WARNING fail to pull uploaded dataset
+2024-05-22 03:35:00,289 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 03:35:00,293 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 03:40:00,125 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 03:40:00,131 WARNING fail to pull uploaded dataset
+2024-05-22 03:40:00,160 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 03:40:00,162 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 03:45:00,088 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 03:45:00,091 WARNING fail to pull uploaded dataset
+2024-05-22 03:45:00,109 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 03:45:00,111 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 03:50:00,083 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 03:50:00,086 WARNING fail to pull uploaded dataset
+2024-05-22 03:50:00,102 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 03:50:00,104 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 03:55:00,066 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 03:55:00,069 WARNING fail to pull uploaded dataset
+2024-05-22 03:55:00,084 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 03:55:00,085 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 04:00:02,425 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 04:00:02,435 WARNING fail to pull uploaded dataset
+2024-05-22 04:00:02,859 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 04:00:02,862 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 04:05:00,479 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 04:05:00,484 WARNING fail to pull uploaded dataset
+2024-05-22 04:05:00,616 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 04:05:00,619 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 04:10:01,349 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 04:10:01,354 WARNING fail to pull uploaded dataset
+2024-05-22 04:10:02,335 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 04:10:02,340 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 04:15:00,230 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 04:15:00,233 WARNING fail to pull uploaded dataset
+2024-05-22 04:15:00,389 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 04:15:00,392 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 04:20:00,145 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 04:20:00,149 WARNING fail to pull uploaded dataset
+2024-05-22 04:20:00,219 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 04:20:00,221 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 04:25:00,366 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 04:25:00,372 WARNING fail to pull uploaded dataset
+2024-05-22 04:25:00,405 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 04:25:00,413 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 04:30:00,197 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 04:30:00,204 WARNING fail to pull uploaded dataset
+2024-05-22 04:30:00,244 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 04:30:00,269 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 04:35:00,078 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 04:35:00,081 WARNING fail to pull uploaded dataset
+2024-05-22 04:35:00,243 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 04:35:00,257 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 04:40:00,660 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 04:40:00,664 WARNING fail to pull uploaded dataset
+2024-05-22 04:40:00,862 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 04:40:00,864 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 04:45:03,030 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 04:45:03,110 WARNING fail to pull uploaded dataset
+2024-05-22 04:45:06,890 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 04:45:07,754 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 04:51:42,311 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 04:51:42,316 WARNING fail to pull uploaded dataset
+2024-05-22 04:51:43,175 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 04:51:43,178 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 04:55:00,203 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 04:55:00,211 WARNING fail to pull uploaded dataset
+2024-05-22 04:55:00,311 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 04:55:00,318 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 05:00:00,106 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 05:00:00,111 WARNING fail to pull uploaded dataset
+2024-05-22 05:00:00,130 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 05:00:00,132 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 05:05:00,967 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 05:05:00,970 WARNING fail to pull uploaded dataset
+2024-05-22 05:05:01,416 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 05:05:01,430 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 05:10:01,160 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 05:10:01,164 WARNING fail to pull uploaded dataset
+2024-05-22 05:10:02,108 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 05:10:02,110 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 05:15:00,092 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 05:15:00,097 WARNING fail to pull uploaded dataset
+2024-05-22 05:15:00,140 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 05:15:00,145 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 05:20:00,213 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 05:20:00,218 WARNING fail to pull uploaded dataset
+2024-05-22 05:20:00,242 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 05:20:00,245 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 05:25:00,164 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 05:25:00,182 WARNING fail to pull uploaded dataset
+2024-05-22 05:25:00,214 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 05:25:00,218 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 05:30:00,664 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 05:30:00,670 WARNING fail to pull uploaded dataset
+2024-05-22 05:30:01,878 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 05:30:01,880 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 05:35:00,172 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 05:35:00,180 WARNING fail to pull uploaded dataset
+2024-05-22 05:35:00,284 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 05:35:00,289 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 05:40:00,090 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 05:40:00,095 WARNING fail to pull uploaded dataset
+2024-05-22 05:40:00,112 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 05:40:00,114 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 05:45:00,235 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 05:45:00,238 WARNING fail to pull uploaded dataset
+2024-05-22 05:45:00,252 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 05:45:00,255 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 05:50:00,154 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 05:50:00,164 WARNING fail to pull uploaded dataset
+2024-05-22 05:50:00,207 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 05:50:00,210 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 05:55:00,098 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 05:55:00,104 WARNING fail to pull uploaded dataset
+2024-05-22 05:55:00,124 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 05:55:00,127 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 06:00:00,085 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 06:00:00,089 WARNING fail to pull uploaded dataset
+2024-05-22 06:00:00,104 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 06:00:00,106 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 06:05:00,094 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 06:05:00,098 WARNING fail to pull uploaded dataset
+2024-05-22 06:05:00,122 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 06:05:00,124 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 06:10:00,105 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 06:10:00,109 WARNING fail to pull uploaded dataset
+2024-05-22 06:10:00,129 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 06:10:00,131 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 06:15:00,095 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 06:15:00,098 WARNING fail to pull uploaded dataset
+2024-05-22 06:15:00,115 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 06:15:00,117 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 06:20:00,843 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 06:20:00,852 WARNING fail to pull uploaded dataset
+2024-05-22 06:20:00,875 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 06:20:00,878 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 06:25:00,142 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 06:25:00,146 WARNING fail to pull uploaded dataset
+2024-05-22 06:25:00,184 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 06:25:00,187 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 07:05:45,948 DEBUG Checker already running
+2024-05-22 07:05:46,599 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 07:05:46,956 WARNING fail to pull uploaded dataset
+2024-05-22 07:05:47,398 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 07:05:47,399 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 07:10:00,146 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 07:10:00,152 WARNING fail to pull uploaded dataset
+2024-05-22 07:10:00,487 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 07:10:00,493 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 07:15:00,310 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 07:15:00,318 WARNING fail to pull uploaded dataset
+2024-05-22 07:15:00,501 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 07:15:00,503 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 07:20:00,087 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 07:20:00,090 WARNING fail to pull uploaded dataset
+2024-05-22 07:20:00,104 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 07:20:00,106 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 07:25:00,089 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 07:25:00,092 WARNING fail to pull uploaded dataset
+2024-05-22 07:25:00,110 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 07:25:00,111 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 07:30:00,065 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 07:30:00,069 WARNING fail to pull uploaded dataset
+2024-05-22 07:30:00,092 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 07:30:00,093 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 07:35:00,079 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 07:35:00,083 WARNING fail to pull uploaded dataset
+2024-05-22 07:35:00,095 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 07:35:00,097 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 07:40:00,080 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 07:40:00,085 WARNING fail to pull uploaded dataset
+2024-05-22 07:40:00,124 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 07:40:00,134 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 07:45:00,084 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 07:45:00,088 WARNING fail to pull uploaded dataset
+2024-05-22 07:45:00,132 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 07:45:00,134 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 07:50:00,077 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 07:50:00,084 WARNING fail to pull uploaded dataset
+2024-05-22 07:50:00,099 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 07:50:00,101 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 07:55:00,116 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 07:55:00,119 WARNING fail to pull uploaded dataset
+2024-05-22 07:55:00,131 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 07:55:00,133 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 08:00:00,279 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 08:00:00,284 WARNING fail to pull uploaded dataset
+2024-05-22 08:00:00,360 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 08:00:00,370 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 08:05:00,078 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 08:05:00,082 WARNING fail to pull uploaded dataset
+2024-05-22 08:05:00,101 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 08:05:00,103 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 08:10:00,251 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 08:10:00,389 WARNING fail to pull uploaded dataset
+2024-05-22 08:10:00,954 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 08:10:00,956 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 08:15:00,217 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 08:15:00,223 WARNING fail to pull uploaded dataset
+2024-05-22 08:15:00,242 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 08:15:00,244 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 08:20:00,078 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 08:20:00,082 WARNING fail to pull uploaded dataset
+2024-05-22 08:20:00,104 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 08:20:00,107 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 08:25:00,406 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 08:25:00,410 WARNING fail to pull uploaded dataset
+2024-05-22 08:25:00,599 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 08:25:00,602 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 08:31:40,344 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 08:31:51,003 WARNING fail to pull uploaded dataset
+2024-05-22 08:31:54,229 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 08:31:54,999 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 08:35:05,373 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 08:35:05,789 WARNING fail to pull uploaded dataset
+2024-05-22 08:35:07,835 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 08:35:07,946 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 08:40:00,283 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 08:40:00,292 WARNING fail to pull uploaded dataset
+2024-05-22 08:40:00,436 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 08:40:00,441 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 08:45:00,070 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 08:45:00,073 WARNING fail to pull uploaded dataset
+2024-05-22 08:45:00,104 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 08:45:00,106 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 08:50:00,681 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 08:50:00,686 WARNING fail to pull uploaded dataset
+2024-05-22 08:50:00,851 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 08:50:00,853 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 08:55:04,187 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 08:55:05,023 WARNING fail to pull uploaded dataset
+2024-05-22 08:55:07,691 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 08:55:07,705 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 09:00:13,565 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 09:00:14,694 WARNING fail to pull uploaded dataset
+2024-05-22 09:00:18,964 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 09:00:19,475 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-22 09:05:26,326 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-22 09:05:27,503 WARNING fail to pull uploaded dataset
+2024-05-22 09:05:31,331 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-22 09:05:31,340 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 00:46:02,335 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 00:46:03,228 WARNING fail to pull uploaded dataset
+2024-05-23 00:46:04,256 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 00:46:04,351 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 00:50:00,299 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 00:50:00,421 WARNING fail to pull uploaded dataset
+2024-05-23 00:50:01,178 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 00:50:01,180 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 00:55:00,284 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 00:55:00,434 WARNING fail to pull uploaded dataset
+2024-05-23 00:55:01,478 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 00:55:01,480 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 01:00:00,168 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 01:00:00,172 WARNING fail to pull uploaded dataset
+2024-05-23 01:00:00,188 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 01:00:00,190 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 01:05:00,075 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 01:05:00,078 WARNING fail to pull uploaded dataset
+2024-05-23 01:05:00,094 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 01:05:00,096 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 01:10:00,126 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 01:10:00,131 WARNING fail to pull uploaded dataset
+2024-05-23 01:10:00,149 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 01:10:00,151 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 01:15:00,223 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 01:15:00,228 WARNING fail to pull uploaded dataset
+2024-05-23 01:15:00,248 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 01:15:00,250 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 01:20:00,077 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 01:20:00,081 WARNING fail to pull uploaded dataset
+2024-05-23 01:20:00,103 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 01:20:00,106 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 01:25:00,093 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 01:25:00,098 WARNING fail to pull uploaded dataset
+2024-05-23 01:25:00,115 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 01:25:00,117 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 01:30:00,126 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 01:30:00,135 WARNING fail to pull uploaded dataset
+2024-05-23 01:30:00,169 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 01:30:00,178 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 01:35:00,090 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 01:35:00,094 WARNING fail to pull uploaded dataset
+2024-05-23 01:35:00,109 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 01:35:00,111 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 01:40:00,076 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 01:40:00,080 WARNING fail to pull uploaded dataset
+2024-05-23 01:40:00,097 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 01:40:00,099 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 01:45:00,113 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 01:45:00,117 WARNING fail to pull uploaded dataset
+2024-05-23 01:45:00,136 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 01:45:00,138 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 01:50:00,122 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 01:50:00,126 WARNING fail to pull uploaded dataset
+2024-05-23 01:50:00,260 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 01:50:00,262 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 01:55:00,123 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 01:55:00,127 WARNING fail to pull uploaded dataset
+2024-05-23 01:55:00,214 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 01:55:00,216 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 02:00:00,082 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 02:00:00,087 WARNING fail to pull uploaded dataset
+2024-05-23 02:00:00,119 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 02:00:00,120 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 02:05:00,126 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 02:05:00,130 WARNING fail to pull uploaded dataset
+2024-05-23 02:05:00,146 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 02:05:00,147 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 02:10:00,114 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 02:10:00,118 WARNING fail to pull uploaded dataset
+2024-05-23 02:10:00,157 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 02:10:00,160 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 02:15:00,137 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 02:15:00,141 WARNING fail to pull uploaded dataset
+2024-05-23 02:15:00,229 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 02:15:00,250 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 02:20:00,085 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 02:20:00,088 WARNING fail to pull uploaded dataset
+2024-05-23 02:20:00,105 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 02:20:00,107 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 02:25:00,099 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 02:25:00,102 WARNING fail to pull uploaded dataset
+2024-05-23 02:25:00,118 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 02:25:00,120 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 02:30:00,092 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 02:30:00,098 WARNING fail to pull uploaded dataset
+2024-05-23 02:30:00,132 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 02:30:00,134 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 02:35:00,132 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 02:35:00,135 WARNING fail to pull uploaded dataset
+2024-05-23 02:35:00,165 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 02:35:00,166 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 02:40:00,087 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 02:40:00,090 WARNING fail to pull uploaded dataset
+2024-05-23 02:40:00,107 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 02:40:00,109 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 02:45:00,116 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 02:45:00,120 WARNING fail to pull uploaded dataset
+2024-05-23 02:45:00,138 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 02:45:00,140 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 02:50:00,068 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 02:50:00,072 WARNING fail to pull uploaded dataset
+2024-05-23 02:50:00,089 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 02:50:00,090 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 02:55:00,096 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 02:55:00,101 WARNING fail to pull uploaded dataset
+2024-05-23 02:55:00,120 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 02:55:00,122 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 03:00:00,071 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 03:00:00,075 WARNING fail to pull uploaded dataset
+2024-05-23 03:00:00,090 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 03:00:00,093 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 03:05:00,106 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 03:05:00,110 WARNING fail to pull uploaded dataset
+2024-05-23 03:05:00,127 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 03:05:00,129 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 03:10:00,094 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 03:10:00,098 WARNING fail to pull uploaded dataset
+2024-05-23 03:10:00,113 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 03:10:00,115 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 03:15:00,098 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 03:15:00,101 WARNING fail to pull uploaded dataset
+2024-05-23 03:15:00,231 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 03:15:00,233 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 03:20:00,093 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 03:20:00,097 WARNING fail to pull uploaded dataset
+2024-05-23 03:20:00,127 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 03:20:00,129 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 03:25:00,146 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 03:25:00,149 WARNING fail to pull uploaded dataset
+2024-05-23 03:25:00,175 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 03:25:00,177 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 03:30:00,072 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 03:30:00,076 WARNING fail to pull uploaded dataset
+2024-05-23 03:30:00,093 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 03:30:00,094 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 03:35:01,119 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 03:35:01,179 WARNING fail to pull uploaded dataset
+2024-05-23 03:35:02,299 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 03:35:02,301 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 03:40:00,478 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 03:40:00,481 WARNING fail to pull uploaded dataset
+2024-05-23 03:40:01,237 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 03:40:01,240 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 04:09:07,573 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 04:09:07,657 WARNING fail to pull uploaded dataset
+2024-05-23 04:09:09,039 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 04:09:09,090 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 04:10:00,363 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 04:10:00,367 WARNING fail to pull uploaded dataset
+2024-05-23 04:10:00,596 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 04:10:00,598 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 04:15:00,686 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 04:15:01,202 WARNING fail to pull uploaded dataset
+2024-05-23 04:15:01,789 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 04:15:01,791 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 04:20:01,635 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 04:20:02,096 WARNING fail to pull uploaded dataset
+2024-05-23 04:20:03,693 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 04:20:03,695 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 04:25:02,171 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 04:25:02,174 WARNING fail to pull uploaded dataset
+2024-05-23 04:25:02,474 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 04:25:02,476 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 04:30:01,364 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 04:30:01,636 WARNING fail to pull uploaded dataset
+2024-05-23 04:30:01,855 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 04:30:02,022 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 04:35:00,336 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 04:35:00,345 WARNING fail to pull uploaded dataset
+2024-05-23 04:35:00,716 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 04:35:00,718 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 04:40:01,551 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 04:40:01,634 WARNING fail to pull uploaded dataset
+2024-05-23 04:40:01,775 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 04:40:01,777 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 04:45:00,343 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 04:45:00,348 WARNING fail to pull uploaded dataset
+2024-05-23 04:45:00,490 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 04:45:00,492 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 04:50:08,748 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 04:50:10,242 WARNING fail to pull uploaded dataset
+2024-05-23 04:50:10,906 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 04:50:10,908 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 04:55:08,263 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 04:55:09,302 WARNING fail to pull uploaded dataset
+2024-05-23 04:55:11,688 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 04:55:12,011 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 05:00:48,865 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 05:00:55,805 WARNING fail to pull uploaded dataset
+2024-05-23 05:01:02,836 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 05:01:07,433 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 05:05:12,498 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 05:05:12,542 WARNING fail to pull uploaded dataset
+2024-05-23 05:06:06,054 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 05:06:06,056 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 05:10:00,204 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 05:10:00,208 WARNING fail to pull uploaded dataset
+2024-05-23 05:10:00,224 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 05:10:00,241 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 05:15:00,185 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 05:15:00,189 WARNING fail to pull uploaded dataset
+2024-05-23 05:15:00,266 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 05:15:00,268 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 05:20:00,225 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 05:20:00,229 WARNING fail to pull uploaded dataset
+2024-05-23 05:20:00,449 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 05:20:00,451 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 05:25:00,106 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 05:25:00,117 WARNING fail to pull uploaded dataset
+2024-05-23 05:25:00,143 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 05:25:00,145 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 05:30:00,073 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 05:30:00,076 WARNING fail to pull uploaded dataset
+2024-05-23 05:30:00,089 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 05:30:00,091 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 05:35:00,892 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 05:35:01,233 WARNING fail to pull uploaded dataset
+2024-05-23 05:35:01,505 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 05:35:01,507 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-23 05:40:02,841 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-23 05:40:03,646 WARNING fail to pull uploaded dataset
+2024-05-23 05:40:03,788 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-23 05:40:03,790 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 03:48:47,358 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 03:48:47,498 WARNING fail to pull uploaded dataset
+2024-05-25 03:48:48,232 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 03:48:48,234 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 03:50:00,084 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 03:50:00,087 WARNING fail to pull uploaded dataset
+2024-05-25 03:50:00,100 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 03:50:00,102 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 03:55:00,113 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 03:55:00,117 WARNING fail to pull uploaded dataset
+2024-05-25 03:55:00,183 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 03:55:00,185 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 04:00:00,157 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 04:00:00,161 WARNING fail to pull uploaded dataset
+2024-05-25 04:00:00,816 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 04:00:00,819 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 04:05:00,083 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 04:05:00,087 WARNING fail to pull uploaded dataset
+2024-05-25 04:05:00,101 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 04:05:00,103 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 04:10:00,425 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 04:10:00,429 WARNING fail to pull uploaded dataset
+2024-05-25 04:10:01,406 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 04:10:01,408 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 04:15:00,406 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 04:15:00,420 WARNING fail to pull uploaded dataset
+2024-05-25 04:15:00,821 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 04:15:00,823 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 04:20:14,438 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 04:20:16,158 WARNING fail to pull uploaded dataset
+2024-05-25 04:20:18,562 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 04:20:18,662 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 04:25:03,241 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 04:25:03,247 WARNING fail to pull uploaded dataset
+2024-05-25 04:25:03,529 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 04:25:03,532 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 04:32:12,951 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 04:32:13,960 WARNING fail to pull uploaded dataset
+2024-05-25 04:32:18,620 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 04:32:18,814 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 04:35:00,487 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 04:35:00,491 WARNING fail to pull uploaded dataset
+2024-05-25 04:35:00,836 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 04:35:00,840 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 04:40:00,263 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 04:40:00,267 WARNING fail to pull uploaded dataset
+2024-05-25 04:40:00,987 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 04:40:00,992 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 04:45:00,080 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 04:45:00,084 WARNING fail to pull uploaded dataset
+2024-05-25 04:45:00,097 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 04:45:00,099 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 04:50:00,135 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 04:50:00,140 WARNING fail to pull uploaded dataset
+2024-05-25 04:50:00,189 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 04:50:00,191 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 04:55:00,158 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 04:55:00,168 WARNING fail to pull uploaded dataset
+2024-05-25 04:55:00,207 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 04:55:00,210 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 05:00:00,108 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 05:00:00,112 WARNING fail to pull uploaded dataset
+2024-05-25 05:00:00,167 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 05:00:00,170 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 05:05:00,079 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 05:05:00,083 WARNING fail to pull uploaded dataset
+2024-05-25 05:05:00,099 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 05:05:00,101 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 05:10:00,087 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 05:10:00,092 WARNING fail to pull uploaded dataset
+2024-05-25 05:10:00,136 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 05:10:00,138 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 05:15:00,140 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 05:15:00,147 WARNING fail to pull uploaded dataset
+2024-05-25 05:15:00,165 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 05:15:00,167 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 05:20:00,362 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 05:20:00,368 WARNING fail to pull uploaded dataset
+2024-05-25 05:20:00,391 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 05:20:00,396 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 05:25:00,519 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 05:25:00,523 WARNING fail to pull uploaded dataset
+2024-05-25 05:25:00,822 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 05:25:00,827 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 05:30:00,261 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 05:30:00,280 WARNING fail to pull uploaded dataset
+2024-05-25 05:30:00,325 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 05:30:00,329 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 05:35:00,163 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 05:35:00,184 WARNING fail to pull uploaded dataset
+2024-05-25 05:35:00,212 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 05:35:00,217 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 05:40:06,752 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 05:40:06,996 WARNING fail to pull uploaded dataset
+2024-05-25 05:40:07,739 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 05:40:07,952 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 05:45:14,981 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 05:45:15,066 WARNING fail to pull uploaded dataset
+2024-05-25 05:45:17,017 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 05:45:17,024 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 05:50:00,619 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 05:50:00,633 WARNING fail to pull uploaded dataset
+2024-05-25 05:50:01,433 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 05:50:01,491 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 05:55:37,198 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 05:55:37,551 WARNING fail to pull uploaded dataset
+2024-05-25 05:55:39,055 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 05:55:39,071 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 06:00:00,907 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 06:00:00,923 WARNING fail to pull uploaded dataset
+2024-05-25 06:00:01,911 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 06:00:02,008 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 06:05:00,150 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 06:05:00,154 WARNING fail to pull uploaded dataset
+2024-05-25 06:05:00,252 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 06:05:00,343 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 06:10:00,305 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 06:10:00,309 WARNING fail to pull uploaded dataset
+2024-05-25 06:10:00,510 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 06:10:00,513 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 06:15:00,231 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 06:15:00,234 WARNING fail to pull uploaded dataset
+2024-05-25 06:15:00,271 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 06:15:00,273 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 06:20:00,097 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 06:20:00,100 WARNING fail to pull uploaded dataset
+2024-05-25 06:20:00,115 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 06:20:00,117 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 06:25:02,645 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 06:25:03,668 WARNING fail to pull uploaded dataset
+2024-05-25 06:25:05,952 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 06:25:06,145 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 06:32:16,154 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 06:32:18,001 WARNING fail to pull uploaded dataset
+2024-05-25 06:32:19,872 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 06:32:19,911 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 06:35:01,410 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 06:35:01,414 WARNING fail to pull uploaded dataset
+2024-05-25 06:35:01,663 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 06:35:01,665 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 06:40:00,243 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 06:40:00,251 WARNING fail to pull uploaded dataset
+2024-05-25 06:40:00,283 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 06:40:00,285 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 06:50:09,105 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 06:50:11,407 WARNING fail to pull uploaded dataset
+2024-05-25 06:50:14,958 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 06:50:14,960 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 06:50:23,144 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 06:50:23,937 WARNING fail to pull uploaded dataset
+2024-05-25 06:50:24,136 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 06:50:24,139 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 06:55:00,804 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 06:55:00,838 WARNING fail to pull uploaded dataset
+2024-05-25 06:55:00,901 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 06:55:00,906 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 07:00:00,189 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 07:00:00,195 WARNING fail to pull uploaded dataset
+2024-05-25 07:00:00,225 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 07:00:00,229 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 07:07:02,924 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 07:07:03,947 WARNING fail to pull uploaded dataset
+2024-05-25 07:07:06,334 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 07:07:06,336 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 07:10:00,545 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 07:10:00,897 WARNING fail to pull uploaded dataset
+2024-05-25 07:10:01,023 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 07:10:01,026 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 07:15:00,079 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 07:15:00,082 WARNING fail to pull uploaded dataset
+2024-05-25 07:15:00,095 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 07:15:00,097 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 07:20:00,064 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 07:20:00,068 WARNING fail to pull uploaded dataset
+2024-05-25 07:20:00,126 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 07:20:00,127 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 07:25:00,080 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 07:25:00,084 WARNING fail to pull uploaded dataset
+2024-05-25 07:25:00,102 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 07:25:00,105 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 07:30:00,109 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 07:30:00,113 WARNING fail to pull uploaded dataset
+2024-05-25 07:30:00,129 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 07:30:00,132 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 07:35:00,366 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 07:35:00,384 WARNING fail to pull uploaded dataset
+2024-05-25 07:35:00,632 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 07:35:00,635 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 07:40:00,159 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 07:40:00,165 WARNING fail to pull uploaded dataset
+2024-05-25 07:40:00,191 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 07:40:00,195 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 07:45:00,168 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 07:45:00,174 WARNING fail to pull uploaded dataset
+2024-05-25 07:45:00,219 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 07:45:00,222 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 07:50:00,124 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 07:50:00,129 WARNING fail to pull uploaded dataset
+2024-05-25 07:50:00,154 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 07:50:00,157 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 07:55:00,676 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 07:55:00,680 WARNING fail to pull uploaded dataset
+2024-05-25 07:55:00,836 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 07:55:00,838 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 08:00:00,097 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 08:00:00,101 WARNING fail to pull uploaded dataset
+2024-05-25 08:00:00,121 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 08:00:00,123 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 08:05:03,383 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 08:05:03,408 WARNING fail to pull uploaded dataset
+2024-05-25 08:05:03,922 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 08:05:04,126 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 08:10:00,073 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 08:10:00,076 WARNING fail to pull uploaded dataset
+2024-05-25 08:10:00,090 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 08:10:00,092 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 08:15:02,736 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 08:15:02,745 WARNING fail to pull uploaded dataset
+2024-05-25 08:15:03,065 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 08:15:03,070 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 08:20:00,067 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 08:20:00,070 WARNING fail to pull uploaded dataset
+2024-05-25 08:20:00,092 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 08:20:00,094 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 08:25:00,071 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 08:25:00,074 WARNING fail to pull uploaded dataset
+2024-05-25 08:25:00,088 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 08:25:00,090 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 08:30:00,408 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 08:30:00,412 WARNING fail to pull uploaded dataset
+2024-05-25 08:30:00,430 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 08:30:00,432 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 08:35:00,104 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 08:35:00,108 WARNING fail to pull uploaded dataset
+2024-05-25 08:35:00,125 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 08:35:00,128 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 08:40:00,086 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 08:40:00,089 WARNING fail to pull uploaded dataset
+2024-05-25 08:40:00,105 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 08:40:00,107 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 08:45:00,075 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 08:45:00,078 WARNING fail to pull uploaded dataset
+2024-05-25 08:45:00,094 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 08:45:00,096 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 08:50:00,081 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 08:50:00,085 WARNING fail to pull uploaded dataset
+2024-05-25 08:50:00,101 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 08:50:00,103 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 08:55:00,127 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 08:55:00,132 WARNING fail to pull uploaded dataset
+2024-05-25 08:55:00,159 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 08:55:00,161 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 09:00:00,930 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 09:00:00,934 WARNING fail to pull uploaded dataset
+2024-05-25 09:00:01,199 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 09:00:01,201 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 09:05:00,411 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 09:05:00,414 WARNING fail to pull uploaded dataset
+2024-05-25 09:05:00,636 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 09:05:00,638 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 09:10:01,204 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 09:10:01,208 WARNING fail to pull uploaded dataset
+2024-05-25 09:10:01,672 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 09:10:01,675 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 09:15:00,107 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 09:15:00,113 WARNING fail to pull uploaded dataset
+2024-05-25 09:15:00,150 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 09:15:00,153 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 09:20:00,200 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 09:20:00,204 WARNING fail to pull uploaded dataset
+2024-05-25 09:20:00,525 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 09:20:00,527 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-25 09:25:00,738 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-25 09:25:00,743 WARNING fail to pull uploaded dataset
+2024-05-25 09:25:00,764 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-25 09:25:00,767 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 01:45:44,095 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 01:45:44,179 WARNING fail to pull uploaded dataset
+2024-05-27 01:45:59,512 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 01:45:59,515 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 01:50:00,441 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 01:50:00,445 WARNING fail to pull uploaded dataset
+2024-05-27 01:50:00,868 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 01:50:00,873 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 01:55:00,271 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 01:55:00,391 WARNING fail to pull uploaded dataset
+2024-05-27 01:55:01,063 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 01:55:01,065 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 02:00:00,586 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 02:00:00,980 WARNING fail to pull uploaded dataset
+2024-05-27 02:00:01,478 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 02:00:02,448 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 02:05:02,801 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 02:05:03,406 WARNING fail to pull uploaded dataset
+2024-05-27 02:05:03,804 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 02:05:03,831 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 02:10:01,383 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 02:10:02,132 WARNING fail to pull uploaded dataset
+2024-05-27 02:10:02,430 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 02:10:02,483 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 02:15:02,431 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 02:15:04,129 WARNING fail to pull uploaded dataset
+2024-05-27 02:15:05,912 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 02:15:06,132 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 02:20:07,990 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 02:20:09,774 WARNING fail to pull uploaded dataset
+2024-05-27 02:20:12,905 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 02:20:13,804 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 02:25:01,627 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 02:25:02,548 WARNING fail to pull uploaded dataset
+2024-05-27 02:25:02,918 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 02:25:03,384 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 02:30:01,520 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 02:30:01,524 WARNING fail to pull uploaded dataset
+2024-05-27 02:30:01,712 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 02:30:01,766 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 02:35:00,524 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 02:35:00,585 WARNING fail to pull uploaded dataset
+2024-05-27 02:35:00,682 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 02:35:00,712 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 02:40:00,161 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 02:40:00,165 WARNING fail to pull uploaded dataset
+2024-05-27 02:40:00,353 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 02:40:00,458 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 02:45:00,821 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 02:45:01,226 WARNING fail to pull uploaded dataset
+2024-05-27 02:45:01,423 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 02:45:01,852 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 02:50:00,117 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 02:50:00,121 WARNING fail to pull uploaded dataset
+2024-05-27 02:50:00,135 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 02:50:00,136 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 02:55:00,862 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 02:55:01,012 WARNING fail to pull uploaded dataset
+2024-05-27 02:55:01,231 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 02:55:01,234 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 03:00:00,266 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 03:00:00,269 WARNING fail to pull uploaded dataset
+2024-05-27 03:00:00,635 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 03:00:00,637 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 03:05:00,792 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 03:05:00,918 WARNING fail to pull uploaded dataset
+2024-05-27 03:05:01,250 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 03:05:01,268 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 03:10:00,118 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 03:10:00,122 WARNING fail to pull uploaded dataset
+2024-05-27 03:10:00,232 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 03:10:00,234 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 03:15:01,189 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 03:15:01,193 WARNING fail to pull uploaded dataset
+2024-05-27 03:15:02,352 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 03:15:02,355 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 03:20:01,193 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 03:20:01,379 WARNING fail to pull uploaded dataset
+2024-05-27 03:20:01,817 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 03:20:01,819 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 03:25:02,330 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 03:25:02,891 WARNING fail to pull uploaded dataset
+2024-05-27 03:25:03,855 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 03:25:03,857 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 03:30:01,667 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 03:30:01,689 WARNING fail to pull uploaded dataset
+2024-05-27 03:30:02,405 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 03:30:02,408 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 03:35:02,037 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 03:35:02,321 WARNING fail to pull uploaded dataset
+2024-05-27 03:35:03,252 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 03:35:03,680 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 03:40:01,608 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 03:40:02,025 WARNING fail to pull uploaded dataset
+2024-05-27 03:40:02,722 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 03:40:02,753 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 03:45:01,435 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 03:45:01,502 WARNING fail to pull uploaded dataset
+2024-05-27 03:45:03,304 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 03:45:03,386 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 03:50:01,971 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 03:50:02,346 WARNING fail to pull uploaded dataset
+2024-05-27 03:50:05,647 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 03:50:06,332 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 03:55:02,354 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 03:55:03,173 WARNING fail to pull uploaded dataset
+2024-05-27 03:55:03,900 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 03:55:05,299 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 04:00:04,846 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 04:00:06,897 WARNING fail to pull uploaded dataset
+2024-05-27 04:00:08,799 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 04:00:09,365 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 04:05:06,870 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 04:05:07,030 WARNING fail to pull uploaded dataset
+2024-05-27 04:05:07,809 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 04:05:08,294 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 04:10:00,866 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 04:10:01,160 WARNING fail to pull uploaded dataset
+2024-05-27 04:10:01,380 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 04:10:01,382 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 04:15:02,147 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 04:15:03,119 WARNING fail to pull uploaded dataset
+2024-05-27 04:15:03,816 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 04:15:03,818 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 04:20:02,918 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 04:20:03,190 WARNING fail to pull uploaded dataset
+2024-05-27 04:20:03,532 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 04:20:03,534 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 04:25:01,144 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 04:25:01,827 WARNING fail to pull uploaded dataset
+2024-05-27 04:25:01,991 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 04:25:01,993 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-27 04:30:02,092 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-27 04:30:03,631 WARNING fail to pull uploaded dataset
+2024-05-27 04:30:04,339 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-27 04:30:04,396 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 01:09:49,108 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 01:09:49,148 WARNING fail to pull uploaded dataset
+2024-05-28 01:09:59,698 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 01:09:59,701 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 01:10:00,024 DEBUG Checker already running
+2024-05-28 01:15:00,132 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 01:15:00,135 WARNING fail to pull uploaded dataset
+2024-05-28 01:15:00,189 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 01:15:00,191 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 01:20:00,203 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 01:20:00,206 WARNING fail to pull uploaded dataset
+2024-05-28 01:20:00,316 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 01:20:00,319 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 01:25:00,817 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 01:25:19,674 WARNING fail to pull uploaded dataset
+2024-05-28 01:25:20,277 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 01:25:20,279 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 01:30:05,259 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 01:30:06,133 WARNING fail to pull uploaded dataset
+2024-05-28 01:30:25,371 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 01:30:25,734 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 01:35:17,632 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 01:35:19,154 WARNING fail to pull uploaded dataset
+2024-05-28 01:35:22,632 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 01:35:24,626 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 01:40:00,411 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 01:40:00,418 WARNING fail to pull uploaded dataset
+2024-05-28 01:40:00,434 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 01:40:00,440 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 01:45:00,171 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 01:45:00,177 WARNING fail to pull uploaded dataset
+2024-05-28 01:45:00,198 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 01:45:00,200 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 01:50:00,120 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 01:50:00,123 WARNING fail to pull uploaded dataset
+2024-05-28 01:50:00,139 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 01:50:00,140 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 01:55:00,096 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 01:55:00,100 WARNING fail to pull uploaded dataset
+2024-05-28 01:55:00,125 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 01:55:00,128 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 02:00:00,098 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 02:00:00,101 WARNING fail to pull uploaded dataset
+2024-05-28 02:00:00,116 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 02:00:00,118 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 02:05:00,095 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 02:05:00,100 WARNING fail to pull uploaded dataset
+2024-05-28 02:05:00,156 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 02:05:00,158 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 02:10:01,676 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 02:10:02,128 WARNING fail to pull uploaded dataset
+2024-05-28 02:10:03,115 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 02:10:03,117 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 02:15:14,191 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 02:15:14,194 WARNING fail to pull uploaded dataset
+2024-05-28 02:15:17,420 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 02:15:17,621 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 02:20:00,173 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 02:20:00,177 WARNING fail to pull uploaded dataset
+2024-05-28 02:20:00,250 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 02:20:00,253 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 02:25:00,104 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 02:25:00,110 WARNING fail to pull uploaded dataset
+2024-05-28 02:25:00,138 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 02:25:00,140 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 02:30:00,068 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 02:30:00,072 WARNING fail to pull uploaded dataset
+2024-05-28 02:30:00,085 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 02:30:00,087 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 02:35:00,339 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 02:35:00,343 WARNING fail to pull uploaded dataset
+2024-05-28 02:35:00,431 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 02:35:00,433 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 02:40:00,345 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 02:40:00,516 WARNING fail to pull uploaded dataset
+2024-05-28 02:40:00,834 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 02:40:00,837 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 02:45:00,214 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 02:45:00,217 WARNING fail to pull uploaded dataset
+2024-05-28 02:45:00,233 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 02:45:00,235 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 02:50:00,103 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 02:50:00,106 WARNING fail to pull uploaded dataset
+2024-05-28 02:50:00,120 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 02:50:00,122 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 02:55:00,088 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 02:55:00,091 WARNING fail to pull uploaded dataset
+2024-05-28 02:55:00,117 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 02:55:00,118 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 03:00:00,084 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 03:00:00,087 WARNING fail to pull uploaded dataset
+2024-05-28 03:00:00,103 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 03:00:00,104 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 03:05:00,129 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 03:05:00,133 WARNING fail to pull uploaded dataset
+2024-05-28 03:05:00,299 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 03:05:00,302 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 03:10:06,861 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 03:10:06,874 WARNING fail to pull uploaded dataset
+2024-05-28 03:10:06,888 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 03:10:06,890 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 03:15:04,768 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 03:15:04,784 WARNING fail to pull uploaded dataset
+2024-05-28 03:15:04,980 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 03:15:04,981 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 03:20:00,146 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 03:20:00,177 WARNING fail to pull uploaded dataset
+2024-05-28 03:20:00,204 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 03:20:00,210 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 03:25:00,423 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 03:25:00,428 WARNING fail to pull uploaded dataset
+2024-05-28 03:25:00,837 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 03:25:00,840 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 03:30:00,069 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 03:30:00,072 WARNING fail to pull uploaded dataset
+2024-05-28 03:30:00,085 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 03:30:00,087 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 03:35:00,080 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 03:35:00,083 WARNING fail to pull uploaded dataset
+2024-05-28 03:35:00,199 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 03:35:00,201 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 03:40:00,087 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 03:40:00,090 WARNING fail to pull uploaded dataset
+2024-05-28 03:40:00,106 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 03:40:00,108 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 03:45:00,091 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 03:45:00,093 WARNING fail to pull uploaded dataset
+2024-05-28 03:45:00,110 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 03:45:00,112 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 03:50:03,868 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 03:50:04,006 WARNING fail to pull uploaded dataset
+2024-05-28 03:50:08,145 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 03:50:08,147 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 03:55:00,079 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 03:55:00,082 WARNING fail to pull uploaded dataset
+2024-05-28 03:55:00,122 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 03:55:00,124 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 04:00:02,376 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 04:00:02,379 WARNING fail to pull uploaded dataset
+2024-05-28 04:00:02,394 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 04:00:02,396 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 04:05:00,070 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 04:05:00,074 WARNING fail to pull uploaded dataset
+2024-05-28 04:05:00,113 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 04:05:00,114 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 04:10:00,096 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 04:10:00,100 WARNING fail to pull uploaded dataset
+2024-05-28 04:10:00,116 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 04:10:00,117 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 04:15:00,673 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 04:15:00,678 WARNING fail to pull uploaded dataset
+2024-05-28 04:15:00,787 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 04:15:00,791 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 04:20:00,277 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 04:20:00,281 WARNING fail to pull uploaded dataset
+2024-05-28 04:20:00,457 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 04:20:00,459 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 04:25:00,137 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 04:25:00,141 WARNING fail to pull uploaded dataset
+2024-05-28 04:25:00,173 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 04:25:00,175 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 04:30:00,094 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 04:30:00,097 WARNING fail to pull uploaded dataset
+2024-05-28 04:30:00,197 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 04:30:00,199 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 04:35:11,168 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 04:35:11,196 WARNING fail to pull uploaded dataset
+2024-05-28 04:35:11,210 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 04:35:11,212 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 04:40:00,393 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 04:40:00,397 WARNING fail to pull uploaded dataset
+2024-05-28 04:40:00,541 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 04:40:00,543 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 04:45:00,066 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 04:45:00,069 WARNING fail to pull uploaded dataset
+2024-05-28 04:45:00,082 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 04:45:00,084 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 04:50:00,087 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 04:50:00,090 WARNING fail to pull uploaded dataset
+2024-05-28 04:50:00,114 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 04:50:00,115 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 04:55:00,449 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 04:55:00,453 WARNING fail to pull uploaded dataset
+2024-05-28 04:55:00,663 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 04:55:00,664 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 05:00:00,101 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 05:00:00,105 WARNING fail to pull uploaded dataset
+2024-05-28 05:00:00,123 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 05:00:00,126 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 05:05:00,091 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 05:05:00,096 WARNING fail to pull uploaded dataset
+2024-05-28 05:05:00,111 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 05:05:00,113 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 05:10:00,159 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 05:10:00,163 WARNING fail to pull uploaded dataset
+2024-05-28 05:10:00,178 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 05:10:00,179 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 05:15:00,103 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 05:15:00,106 WARNING fail to pull uploaded dataset
+2024-05-28 05:15:00,132 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 05:15:00,133 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-28 05:20:00,361 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-28 05:20:00,365 WARNING fail to pull uploaded dataset
+2024-05-28 05:20:00,378 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-28 05:20:00,380 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-29 06:25:28,164 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-29 06:25:28,365 WARNING fail to pull uploaded dataset
+2024-05-29 06:25:30,988 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-29 06:25:30,992 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-29 06:30:00,389 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-29 06:30:00,416 WARNING fail to pull uploaded dataset
+2024-05-29 06:30:00,835 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-29 06:30:00,880 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-29 06:35:00,684 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-29 06:35:00,687 WARNING fail to pull uploaded dataset
+2024-05-29 06:35:01,025 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-29 06:35:01,319 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-29 06:40:04,315 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-29 06:40:04,998 WARNING fail to pull uploaded dataset
+2024-05-29 06:40:16,396 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-29 06:40:20,287 DEBUG schedule checking: GOOGLE_DRIVE
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   2024-05-29 07:21:53,415 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-29 07:21:53,622 WARNING fail to pull uploaded dataset
+2024-05-29 07:22:12,522 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-29 07:22:12,524 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-29 07:25:00,138 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-29 07:25:00,141 WARNING fail to pull uploaded dataset
+2024-05-29 07:25:00,285 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-29 07:25:00,287 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-29 07:30:02,664 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-29 07:30:04,313 WARNING fail to pull uploaded dataset
+2024-05-29 07:30:05,133 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-29 07:30:05,468 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-29 07:35:01,889 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-29 07:35:02,278 WARNING fail to pull uploaded dataset
+2024-05-29 07:35:02,570 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-29 07:35:04,911 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-29 07:40:04,183 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-29 07:40:05,454 WARNING fail to pull uploaded dataset
+2024-05-29 07:40:06,797 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-29 07:40:07,342 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-29 07:45:02,030 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-29 07:45:03,263 WARNING fail to pull uploaded dataset
+2024-05-29 07:45:04,289 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-29 07:45:05,809 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-29 07:50:01,631 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-29 07:50:02,650 WARNING fail to pull uploaded dataset
+2024-05-29 07:50:03,047 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-29 07:50:03,049 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-29 07:55:00,794 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-29 07:55:00,865 WARNING fail to pull uploaded dataset
+2024-05-29 07:55:01,185 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-29 07:55:01,187 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-29 08:00:02,663 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-29 08:00:03,825 WARNING fail to pull uploaded dataset
+2024-05-29 08:00:09,112 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-29 08:00:10,989 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-29 08:05:05,246 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-29 08:05:05,562 WARNING fail to pull uploaded dataset
+2024-05-29 08:05:06,415 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-29 08:05:06,416 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-29 08:10:01,704 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-29 08:10:02,144 WARNING fail to pull uploaded dataset
+2024-05-29 08:10:02,896 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-29 08:10:02,990 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-29 08:15:00,509 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-29 08:15:00,702 WARNING fail to pull uploaded dataset
+2024-05-29 08:15:00,890 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-29 08:15:00,938 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 02:56:16,775 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 02:56:17,625 WARNING fail to pull uploaded dataset
+2024-05-30 02:56:22,338 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 02:56:22,340 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 03:00:00,130 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 03:00:00,134 WARNING fail to pull uploaded dataset
+2024-05-30 03:00:00,199 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 03:00:00,201 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 03:05:00,121 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 03:05:00,125 WARNING fail to pull uploaded dataset
+2024-05-30 03:05:00,140 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 03:05:00,141 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 03:10:00,172 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 03:10:00,176 WARNING fail to pull uploaded dataset
+2024-05-30 03:10:00,297 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 03:10:00,299 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 03:15:00,098 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 03:15:00,101 WARNING fail to pull uploaded dataset
+2024-05-30 03:15:00,179 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 03:15:00,180 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 03:20:00,124 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 03:20:00,127 WARNING fail to pull uploaded dataset
+2024-05-30 03:20:00,227 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 03:20:00,244 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 03:25:01,162 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 03:25:01,189 WARNING fail to pull uploaded dataset
+2024-05-30 03:25:01,398 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 03:25:01,399 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 03:30:01,066 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 03:30:01,282 WARNING fail to pull uploaded dataset
+2024-05-30 03:30:01,569 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 03:30:01,571 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 03:35:00,636 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 03:35:00,842 WARNING fail to pull uploaded dataset
+2024-05-30 03:35:01,795 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 03:35:01,999 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 03:40:00,243 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 03:40:00,324 WARNING fail to pull uploaded dataset
+2024-05-30 03:40:00,340 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 03:40:00,342 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 03:45:00,211 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 03:45:00,215 WARNING fail to pull uploaded dataset
+2024-05-30 03:45:00,391 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 03:45:00,393 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 03:50:00,153 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 03:50:00,362 WARNING fail to pull uploaded dataset
+2024-05-30 03:50:00,378 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 03:50:00,379 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 03:55:01,853 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 03:55:01,882 WARNING fail to pull uploaded dataset
+2024-05-30 03:55:08,277 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 03:55:08,278 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 04:00:22,556 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 04:00:23,906 WARNING fail to pull uploaded dataset
+2024-05-30 04:00:25,016 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 04:00:25,019 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 04:05:00,064 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 04:05:00,067 WARNING fail to pull uploaded dataset
+2024-05-30 04:05:00,083 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 04:05:00,103 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 04:10:00,151 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 04:10:00,156 WARNING fail to pull uploaded dataset
+2024-05-30 04:10:00,344 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 04:10:00,347 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 04:15:00,411 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 04:15:00,418 WARNING fail to pull uploaded dataset
+2024-05-30 04:15:00,570 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 04:15:00,573 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 04:20:00,548 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 04:20:00,676 WARNING fail to pull uploaded dataset
+2024-05-30 04:20:01,063 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 04:20:01,065 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 04:25:04,286 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 04:25:04,290 WARNING fail to pull uploaded dataset
+2024-05-30 04:25:04,445 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 04:25:04,448 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 04:30:00,245 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 04:30:00,372 WARNING fail to pull uploaded dataset
+2024-05-30 04:30:00,770 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 04:30:00,772 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 04:35:00,145 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 04:35:00,190 WARNING fail to pull uploaded dataset
+2024-05-30 04:35:00,206 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 04:35:00,207 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 04:40:00,076 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 04:40:00,079 WARNING fail to pull uploaded dataset
+2024-05-30 04:40:00,493 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 04:40:00,495 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 04:45:00,100 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 04:45:00,104 WARNING fail to pull uploaded dataset
+2024-05-30 04:45:00,138 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 04:45:00,140 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 04:50:00,117 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 04:50:00,120 WARNING fail to pull uploaded dataset
+2024-05-30 04:50:00,159 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 04:50:00,161 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 04:55:00,125 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 04:55:00,128 WARNING fail to pull uploaded dataset
+2024-05-30 04:55:00,141 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 04:55:00,143 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 05:00:00,352 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 05:00:00,355 WARNING fail to pull uploaded dataset
+2024-05-30 05:00:00,370 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 05:00:00,372 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 05:05:00,076 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 05:05:00,079 WARNING fail to pull uploaded dataset
+2024-05-30 05:05:00,093 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 05:05:00,094 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 05:10:00,168 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 05:10:00,171 WARNING fail to pull uploaded dataset
+2024-05-30 05:10:00,220 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 05:10:00,222 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 05:15:00,072 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 05:15:00,075 WARNING fail to pull uploaded dataset
+2024-05-30 05:15:00,129 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 05:15:00,131 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 05:20:00,109 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 05:20:00,112 WARNING fail to pull uploaded dataset
+2024-05-30 05:20:00,126 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 05:20:00,128 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 05:25:00,089 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 05:25:00,092 WARNING fail to pull uploaded dataset
+2024-05-30 05:25:00,105 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 05:25:00,106 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 05:30:00,131 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 05:30:00,136 WARNING fail to pull uploaded dataset
+2024-05-30 05:30:00,157 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 05:30:00,159 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 05:35:03,290 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 05:35:03,295 WARNING fail to pull uploaded dataset
+2024-05-30 05:35:03,319 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 05:35:03,325 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 05:40:00,110 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 05:40:00,113 WARNING fail to pull uploaded dataset
+2024-05-30 05:40:00,125 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 05:40:00,126 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 05:45:00,106 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 05:45:00,109 WARNING fail to pull uploaded dataset
+2024-05-30 05:45:00,124 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 05:45:00,126 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 05:50:00,095 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 05:50:00,099 WARNING fail to pull uploaded dataset
+2024-05-30 05:50:00,114 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 05:50:00,116 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 05:55:00,066 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 05:55:00,069 WARNING fail to pull uploaded dataset
+2024-05-30 05:55:00,085 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 05:55:00,086 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 06:00:20,967 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 06:00:20,982 WARNING fail to pull uploaded dataset
+2024-05-30 06:00:21,055 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 06:00:21,057 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 06:05:00,068 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 06:05:00,071 WARNING fail to pull uploaded dataset
+2024-05-30 06:05:00,085 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 06:05:00,087 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 06:10:00,069 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 06:10:00,073 WARNING fail to pull uploaded dataset
+2024-05-30 06:10:00,087 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 06:10:00,089 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 06:15:00,063 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 06:15:00,067 WARNING fail to pull uploaded dataset
+2024-05-30 06:15:00,081 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 06:15:00,083 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 06:20:00,074 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 06:20:00,078 WARNING fail to pull uploaded dataset
+2024-05-30 06:20:00,093 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 06:20:00,094 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 06:25:00,062 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 06:25:00,065 WARNING fail to pull uploaded dataset
+2024-05-30 06:25:00,094 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 06:25:00,096 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 06:30:00,067 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 06:30:00,071 WARNING fail to pull uploaded dataset
+2024-05-30 06:30:00,085 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 06:30:00,087 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 06:35:00,075 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 06:35:00,079 WARNING fail to pull uploaded dataset
+2024-05-30 06:35:00,092 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 06:35:00,093 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 06:40:00,074 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 06:40:00,081 WARNING fail to pull uploaded dataset
+2024-05-30 06:40:00,099 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 06:40:00,101 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 06:45:00,066 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 06:45:00,070 WARNING fail to pull uploaded dataset
+2024-05-30 06:45:00,084 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 06:45:00,086 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 06:50:00,072 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 06:50:00,076 WARNING fail to pull uploaded dataset
+2024-05-30 06:50:00,090 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 06:50:00,091 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 06:55:00,088 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 06:55:00,092 WARNING fail to pull uploaded dataset
+2024-05-30 06:55:00,110 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 06:55:00,112 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 07:00:00,128 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 07:00:00,132 WARNING fail to pull uploaded dataset
+2024-05-30 07:00:00,145 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 07:00:00,147 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 07:05:00,064 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 07:05:00,067 WARNING fail to pull uploaded dataset
+2024-05-30 07:05:00,082 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 07:05:00,084 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 07:10:00,106 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 07:10:00,110 WARNING fail to pull uploaded dataset
+2024-05-30 07:10:00,127 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 07:10:00,128 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 07:15:00,081 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 07:15:00,084 WARNING fail to pull uploaded dataset
+2024-05-30 07:15:00,097 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 07:15:00,098 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 07:20:00,067 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 07:20:00,070 WARNING fail to pull uploaded dataset
+2024-05-30 07:20:00,082 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 07:20:00,084 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 07:25:00,073 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 07:25:00,076 WARNING fail to pull uploaded dataset
+2024-05-30 07:25:00,091 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 07:25:00,093 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 07:30:00,066 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 07:30:00,069 WARNING fail to pull uploaded dataset
+2024-05-30 07:30:00,082 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 07:30:00,084 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 07:35:00,067 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 07:35:00,070 WARNING fail to pull uploaded dataset
+2024-05-30 07:35:00,083 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 07:35:00,084 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 07:40:00,071 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 07:40:00,075 WARNING fail to pull uploaded dataset
+2024-05-30 07:40:00,089 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 07:40:00,092 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 07:45:00,097 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 07:45:00,100 WARNING fail to pull uploaded dataset
+2024-05-30 07:45:00,116 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 07:45:00,118 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 07:50:00,064 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 07:50:00,067 WARNING fail to pull uploaded dataset
+2024-05-30 07:50:00,082 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 07:50:00,084 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 07:55:00,074 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 07:55:00,078 WARNING fail to pull uploaded dataset
+2024-05-30 07:55:00,092 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 07:55:00,095 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 08:00:00,645 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 08:00:00,648 WARNING fail to pull uploaded dataset
+2024-05-30 08:00:01,136 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 08:00:01,138 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 08:05:00,570 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 08:05:00,574 WARNING fail to pull uploaded dataset
+2024-05-30 08:05:00,729 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 08:05:00,731 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 08:10:00,119 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 08:10:00,122 WARNING fail to pull uploaded dataset
+2024-05-30 08:10:00,210 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 08:10:00,212 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 08:15:00,089 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 08:15:00,093 WARNING fail to pull uploaded dataset
+2024-05-30 08:15:00,125 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 08:15:00,126 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 08:20:00,079 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 08:20:00,083 WARNING fail to pull uploaded dataset
+2024-05-30 08:20:00,098 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 08:20:00,100 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 08:25:00,070 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 08:25:00,073 WARNING fail to pull uploaded dataset
+2024-05-30 08:25:00,086 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 08:25:00,088 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 08:30:00,077 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 08:30:00,087 WARNING fail to pull uploaded dataset
+2024-05-30 08:30:00,099 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 08:30:00,105 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 08:35:00,090 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 08:35:00,094 WARNING fail to pull uploaded dataset
+2024-05-30 08:35:00,107 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 08:35:00,110 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 08:40:00,092 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 08:40:00,096 WARNING fail to pull uploaded dataset
+2024-05-30 08:40:00,110 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 08:40:00,112 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 08:45:00,070 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 08:45:00,074 WARNING fail to pull uploaded dataset
+2024-05-30 08:45:00,089 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 08:45:00,091 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 08:50:00,071 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 08:50:00,076 WARNING fail to pull uploaded dataset
+2024-05-30 08:50:00,090 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 08:50:00,091 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 08:55:00,066 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 08:55:00,069 WARNING fail to pull uploaded dataset
+2024-05-30 08:55:00,082 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 08:55:00,083 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 09:00:00,068 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 09:00:00,071 WARNING fail to pull uploaded dataset
+2024-05-30 09:00:00,088 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 09:00:00,090 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 09:05:00,088 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 09:05:00,093 WARNING fail to pull uploaded dataset
+2024-05-30 09:05:00,110 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 09:05:00,113 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 09:10:00,062 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 09:10:00,065 WARNING fail to pull uploaded dataset
+2024-05-30 09:10:00,078 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 09:10:00,080 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-30 09:15:00,419 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-30 09:15:00,422 WARNING fail to pull uploaded dataset
+2024-05-30 09:15:00,437 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-30 09:15:00,439 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 01:43:19,896 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 01:43:20,098 WARNING fail to pull uploaded dataset
+2024-05-31 01:43:20,483 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 01:43:20,485 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 01:45:00,245 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 01:45:00,249 WARNING fail to pull uploaded dataset
+2024-05-31 01:45:00,472 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 01:45:00,474 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 01:50:00,317 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 01:50:00,323 WARNING fail to pull uploaded dataset
+2024-05-31 01:50:00,497 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 01:50:00,499 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 01:55:00,097 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 01:55:00,101 WARNING fail to pull uploaded dataset
+2024-05-31 01:55:00,179 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 01:55:00,181 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 02:00:00,081 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 02:00:00,084 WARNING fail to pull uploaded dataset
+2024-05-31 02:00:00,122 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 02:00:00,123 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 02:05:00,147 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 02:05:00,154 WARNING fail to pull uploaded dataset
+2024-05-31 02:05:00,177 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 02:05:00,179 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 02:10:00,086 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 02:10:00,089 WARNING fail to pull uploaded dataset
+2024-05-31 02:10:00,122 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 02:10:00,124 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 02:15:00,202 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 02:15:00,206 WARNING fail to pull uploaded dataset
+2024-05-31 02:15:00,221 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 02:15:00,223 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 02:20:00,427 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 02:20:00,431 WARNING fail to pull uploaded dataset
+2024-05-31 02:20:00,504 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 02:20:00,506 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 02:25:00,145 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 02:25:00,152 WARNING fail to pull uploaded dataset
+2024-05-31 02:25:00,211 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 02:25:00,213 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 02:30:00,117 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 02:30:00,122 WARNING fail to pull uploaded dataset
+2024-05-31 02:30:00,139 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 02:30:00,141 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 02:35:00,097 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 02:35:00,101 WARNING fail to pull uploaded dataset
+2024-05-31 02:35:00,114 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 02:35:00,116 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 02:40:00,163 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 02:40:00,176 WARNING fail to pull uploaded dataset
+2024-05-31 02:40:00,241 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 02:40:00,244 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 02:45:00,110 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 02:45:00,114 WARNING fail to pull uploaded dataset
+2024-05-31 02:45:00,129 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 02:45:00,133 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 02:50:00,105 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 02:50:00,109 WARNING fail to pull uploaded dataset
+2024-05-31 02:50:00,141 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 02:50:00,143 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 02:55:00,116 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 02:55:00,122 WARNING fail to pull uploaded dataset
+2024-05-31 02:55:00,148 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 02:55:00,151 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 03:00:00,282 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 03:00:00,287 WARNING fail to pull uploaded dataset
+2024-05-31 03:00:00,307 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 03:00:00,310 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 03:05:00,074 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 03:05:00,077 WARNING fail to pull uploaded dataset
+2024-05-31 03:05:00,102 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 03:05:00,104 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 03:10:00,067 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 03:10:00,071 WARNING fail to pull uploaded dataset
+2024-05-31 03:10:00,084 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 03:10:00,085 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 03:15:00,072 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 03:15:00,075 WARNING fail to pull uploaded dataset
+2024-05-31 03:15:00,143 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 03:15:00,145 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 03:20:00,093 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 03:20:00,214 WARNING fail to pull uploaded dataset
+2024-05-31 03:20:00,247 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 03:20:00,249 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 03:25:01,398 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 03:25:01,402 WARNING fail to pull uploaded dataset
+2024-05-31 03:25:01,810 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 03:25:01,812 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 03:30:00,134 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 03:30:00,138 WARNING fail to pull uploaded dataset
+2024-05-31 03:30:00,204 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 03:30:00,206 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 03:35:00,067 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 03:35:00,070 WARNING fail to pull uploaded dataset
+2024-05-31 03:35:00,088 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 03:35:00,090 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 03:40:00,176 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 03:40:00,198 WARNING fail to pull uploaded dataset
+2024-05-31 03:40:00,523 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 03:40:00,525 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 03:45:00,538 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 03:45:00,544 WARNING fail to pull uploaded dataset
+2024-05-31 03:45:00,837 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 03:45:00,859 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 03:56:40,194 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 03:56:40,454 WARNING fail to pull uploaded dataset
+2024-05-31 03:56:41,206 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 03:56:41,208 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 03:56:41,303 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 03:56:41,309 WARNING fail to pull uploaded dataset
+2024-05-31 03:56:41,317 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 03:56:41,319 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 04:00:00,570 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 04:00:00,574 WARNING fail to pull uploaded dataset
+2024-05-31 04:00:00,589 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 04:00:00,591 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 04:05:00,110 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 04:05:00,117 WARNING fail to pull uploaded dataset
+2024-05-31 04:05:00,131 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 04:05:00,133 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 04:10:00,481 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 04:10:00,490 WARNING fail to pull uploaded dataset
+2024-05-31 04:10:00,532 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 04:10:00,536 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 04:15:00,356 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 04:15:00,375 WARNING fail to pull uploaded dataset
+2024-05-31 04:15:00,467 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 04:15:00,471 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 04:20:00,085 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 04:20:00,089 WARNING fail to pull uploaded dataset
+2024-05-31 04:20:00,106 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 04:20:00,107 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 04:25:00,211 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 04:25:00,216 WARNING fail to pull uploaded dataset
+2024-05-31 04:25:00,336 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 04:25:00,353 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 04:30:00,082 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 04:30:00,086 WARNING fail to pull uploaded dataset
+2024-05-31 04:30:00,103 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 04:30:00,105 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 04:35:00,112 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 04:35:00,116 WARNING fail to pull uploaded dataset
+2024-05-31 04:35:00,137 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 04:35:00,139 DEBUG schedule checking: GOOGLE_DRIVE
+2024-05-31 04:40:00,085 DEBUG _execute_command drive pull -no-prompt -quiet -ignore-name-clashes upload
+2024-05-31 04:40:00,089 WARNING fail to pull uploaded dataset
+2024-05-31 04:40:00,105 DEBUG Traceback (most recent call last):
+  File "/usr/src/geonode/geonode/geokincia/tasks.py", line 269, in check_and_process_data_taskk
+    storage.download_file('upload')
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 56, in download_file
+    self._execute_command('drive pull -no-prompt -quiet -ignore-name-clashes %s' % name, self.cwd)
+  File "/usr/src/geonode/geonode/geokincia/storage/gdrive.py", line 20, in _execute_command
+    ext = subprocess.run(command, capture_output=True, cwd=workdir, shell=True)
+  File "/usr/local/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/local/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/volumes/statics/workdir/gdrive'
+
+2024-05-31 04:40:00,107 DEBUG schedule checking: GOOGLE_DRIVE
